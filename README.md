@@ -42,3 +42,9 @@ v0.1 is a proposed documentation architecture. Agent names describe planned role
 - [Editorial architecture](editorial/editorial-architecture.md)
 - [Thesis template](thesis-graph/template.md)
 - [Evidence schema](evidence/schema.md)
+
+## Public evidence and companion workflow
+
+Start with the [five-issue public inventory](archive/public-inventory.md), [source authority record](evidence/CF-027.md) and [provisional voice observations](editorial/voice-observations.md). Metadata indexing and one article reading are complete; external claim validation remains pending.
+
+Execution design lives in [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine). Kell owns this project; the published archive remains historical evidence, not automatically canonical knowledge.
