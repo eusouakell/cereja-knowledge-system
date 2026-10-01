@@ -4,8 +4,8 @@ Observed: 2026-10-01. Source: [public archive](https://cerejaflamejante.substack
 
 | ID | Published | Issue | Preview themes | Review depth |
 |---|---|---|---|---|
-| CF-029 | 2025-09-24 | [#029 — No mundo da Lua e da inovação](https://cerejaflamejante.substack.com/p/029-no-mundo-da-lua-e-da-inovacao) | AI; criatividade; energia; cultura | Archive metadata only |
-| CF-028 | 2025-07-28 | [#028 — O estranho virou normal](https://cerejaflamejante.substack.com/p/028-o-estranho-virou-normal) | vibe coding; MCP; AI; cultura | Archive metadata only |
+| CF-029 | 2025-09-24 | [#029 — No mundo da Lua e da inovação](https://cerejaflamejante.substack.com/p/029-no-mundo-da-lua-e-da-inovacao) | AI; criatividade; energia; cultura | Public body read; external claims not revalidated |
+| CF-028 | 2025-07-28 | [#028 — O estranho virou normal](https://cerejaflamejante.substack.com/p/028-o-estranho-virou-normal) | vibe coding; MCP; AI; cultura | Public body read; external claims not revalidated |
 | CF-027 | 2025-07-15 | [#027 — A nova receita da criatividade](https://cerejaflamejante.substack.com/p/027-a-nova-receita-da-criatividade) | criatividade; AI; ciência; cultura | Public body read; external claims not revalidated |
 | CF-026 | 2025-06-15 | [#026 — O céu não tem paredes](https://cerejaflamejante.substack.com/p/026-o-ceu-nao-tem-paredes) | não classificados | Archive metadata only |
 | CF-025 | 2025-05-15 | [#025 — Aleatoriedade também é ordem](https://cerejaflamejante.substack.com/p/025-aleatoriedade-tambem-e-ordem) | não classificados | Archive metadata only |
