@@ -9,6 +9,12 @@ For **high-impact or reusable design decisions**, Cereja can switch into a trace
 Upstream:
 https://github.com/blude/digital-design-werkzeuge
 
+## Acknowledgement
+
+Thanks to **Sarah Pratti** for creating and openly publishing [Digital Design Werkzeuge](https://github.com/blude/digital-design-werkzeuge), developed in the context of her master's work, and for making the methodology available for others to study and discuss.
+
+Its approach to layered design documentation, explicit abstraction levels and cross-level traceability helped inform Flame's optional traceability mode. Cereja's adaptation applies those ideas to its own design-system, accessibility and agentic-context needs; it is not presented as Sarah's framework or as an extension officially endorsed by her.
+
 ## Why this matters
 
 The useful idea is not "write four documents".
