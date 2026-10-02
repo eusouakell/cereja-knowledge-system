@@ -1,0 +1,109 @@
+[DOCUMENT]
+TITLE: Flame Traceability Pilot
+UID: FLAME-TRACEABILITY-PILOT
+CLASSIFICATION: Public
+
+[REQUIREMENT]
+UID: FLAME-L0-EXPERIENCE
+STATUS: Active
+TAGS: L0
+TITLE: Expressive accessible editorial experience
+STATEMENT: Flame shall support a motion-rich and visually expressive editorial experience without sacrificing orientation, comprehension, user control, accessibility, or task completion.
+
+[REQUIREMENT]
+UID: FLAME-L1-READING
+STATUS: Active
+TAGS: L1
+TITLE: Preserve reading and editorial hierarchy
+STATEMENT: The experience shall preserve clear hierarchy, comfortable reading, and editorial pacing while allowing controlled expressive moments.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L0-EXPERIENCE
+
+[REQUIREMENT]
+UID: FLAME-L1-ACCESS
+STATUS: Active
+TAGS: L1
+TITLE: Preserve access across interaction modes
+STATEMENT: The experience shall preserve meaning and task completion across visual, non-visual, keyboard, touch, reduced-motion, and cognitively lower-load modes.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L0-EXPERIENCE
+
+[REQUIREMENT]
+UID: FLAME-L2-TOKENS
+STATUS: Active
+TAGS: L2
+TITLE: Use semantic design tokens
+STATEMENT: Reusable interface implementations shall consume semantic Flame tokens instead of introducing arbitrary visual values when an approved semantic role exists.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L1-READING
+
+[REQUIREMENT]
+UID: FLAME-L2-MOTION
+STATUS: Active
+TAGS: L2
+TITLE: Motion must have a job
+STATEMENT: Motion shall orient, reveal, connect, confirm, or create purposeful personality and shall not be the only carrier of essential meaning or action.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L1-READING
+- TYPE: Parent
+  VALUE: FLAME-L1-ACCESS
+
+[REQUIREMENT]
+UID: FLAME-L2-REDUCED-MOTION
+STATUS: Active
+TAGS: L2
+TITLE: Reduced-motion behavior is explicit
+STATEMENT: Any reusable pattern with motion shall define reduced-motion behavior that preserves meaning, orientation, and task completion.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L1-ACCESS
+
+[REQUIREMENT]
+UID: FLAME-L2-SEMANTICS
+STATUS: Active
+TAGS: L2
+TITLE: Semantic structure survives visual composition
+STATEMENT: Visual hierarchy and layout shall preserve coherent document semantics, reading order, accessible names, roles, and states.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L1-READING
+- TYPE: Parent
+  VALUE: FLAME-L1-ACCESS
+
+[REQUIREMENT]
+UID: FLAME-L3-ISSUE-HERO
+STATUS: Active
+TAGS: L3
+TITLE: IssueHero preserves a single dominant art-direction move
+STATEMENT: IssueHero shall use one dominant art-direction move while preserving semantic heading order, readable content, and a reduced-motion equivalent when movement is present.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L2-MOTION
+- TYPE: Parent
+  VALUE: FLAME-L2-SEMANTICS
+- TYPE: Parent
+  VALUE: FLAME-L2-REDUCED-MOTION
+
+[REQUIREMENT]
+UID: FLAME-L3-NAVIGATION
+STATUS: Active
+TAGS: L3
+TITLE: Navigation preserves location and keyboard flow
+STATEMENT: Navigation shall preserve current location, logical keyboard order, visible focus, clear action priority, and skip-to-content support where applicable.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L2-SEMANTICS
+
+[REQUIREMENT]
+UID: FLAME-L3-MEDIAFRAME
+STATUS: Active
+TAGS: L3
+TITLE: MediaFrame carries accessibility and provenance
+STATEMENT: MediaFrame shall define alternative-text or decorative behavior, caption and provenance behavior, and interaction states appropriate to its media type.
+RELATIONS:
+- TYPE: Parent
+  VALUE: FLAME-L1-ACCESS
