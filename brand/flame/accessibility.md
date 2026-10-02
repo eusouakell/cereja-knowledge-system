@@ -2,7 +2,21 @@
 
 Production target: **WCAG 2.2 AA** as the minimum baseline.
 
-Accessibility is also broader than formal conformance: Flame should support reading clarity, cognitive predictability and user control.
+Accessibility is broader than formal conformance and broader than screen-reader compatibility. Flame should support different ways of seeing, hearing, understanding and operating an interface while preserving meaning, agency and task completion.
+
+## Accessibility dimensions
+
+Flame reviews at least these dimensions:
+
+- **visual** — contrast, low vision, color-vision differences, text scaling, zoom and reflow;
+- **non-visual** — semantic structure, screen-reader navigation, names, roles, states and alternatives to visual media;
+- **motor** — keyboard operation, target size, no precision-only gestures, predictable focus and alternatives to drag/hover;
+- **vestibular / motion** — reduced motion, no essential parallax or movement dependency, no unnecessary continuous animation;
+- **cognitive** — clear hierarchy, stable navigation, manageable density, understandable labels, error prevention and recovery;
+- **auditory** — captions/transcripts when audio or video carries information; no audio-only essential instruction;
+- **language / comprehension** — plain interaction language, meaningful labels, no decorative jargon in task-critical UI.
+
+This list is an operating lens, not a claim to cover every disability or assistive-technology scenario.
 
 ## Contrast
 
@@ -77,6 +91,8 @@ A component is not Flame-ready until its keyboard, focus, contrast, text scaling
 
 
 ## Screen-reader experience contract
+
+Screen-reader support is one accessibility mode within the broader Flame baseline. It is documented separately because highly visual, motion-rich editorial interfaces create specific semantic risks.
 
 The target is not a fallback. The non-visual experience is a first-class composition.
 
