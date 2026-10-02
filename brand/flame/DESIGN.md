@@ -159,6 +159,8 @@ See [components.md](components.md).
 
 Baseline: **WCAG 2.2 AA** for production interfaces.
 
+> **Expressão visual está no nosso DNA. Acessibilidade é um direito. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
+
 Flame follows a multimodal experience rule:
 
 > **Expression may vary by mode. Meaning, control and task completion must not.**
