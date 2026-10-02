@@ -46,13 +46,15 @@ Agent-generated UI must follow Flame. Flame does not follow whatever aesthetic a
 
 Accessibility is a design constraint that can increase clarity and character. It is not a reason to flatten the identity.
 
-### Beauty must have a non-visual equivalent
+### Expressive across modes
 
-The visual experience may be rich, kinetic and surprising. The semantic experience must remain complete, ordered and efficient without vision.
+The visual experience may be rich, kinetic and surprising. Accessibility is broader than a non-visual equivalent or screen-reader support.
 
-**Beautiful for people who can see it; complete and practical for people using a screen reader.**
+Flame should preserve meaning, control and task completion across different ways of perceiving and operating an interface — including visual, non-visual, keyboard, touch, reduced-motion and cognitively lower-load experiences.
 
-No animation, image, layout trick or color treatment may carry essential meaning that disappears from the accessibility tree.
+Kell's direction — **"lindo pra quem enxerga, prático pra quem usa leitor de tela"** — is kept as an intuitive design north star, not as a complete definition of accessibility.
+
+No animation, image, layout trick, sound or color treatment may be the only carrier of essential meaning or action.
 
 ## System layers
 
