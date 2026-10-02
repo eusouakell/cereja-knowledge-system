@@ -1,4 +1,4 @@
-# Chama reference board
+# Flame reference board
 
 References are **inspiration and pattern research**, not templates to copy.
 
@@ -26,7 +26,7 @@ Use as:
 - discovery surface for authored React patterns;
 - inspiration for heroes, transitions, interactive details.
 
-Rule: imported/copied component ideas must be restyled through Chama tokens and reviewed for accessibility.
+Rule: imported/copied component ideas must be restyled through Flame tokens and reviewed for accessibility.
 
 ### Figcomponents
 https://www.figcomponents.com/
@@ -65,7 +65,7 @@ Use as:
 - design-system structure;
 - analysis of role-based tokens, components, motion and responsive behavior.
 
-Rule: Chama is authored from Cereja's own identity. External DESIGN.md files are comparative references only.
+Rule: Flame is authored from Cereja's own identity. External DESIGN.md files are comparative references only.
 
 ## Additional editorial references to investigate later
 

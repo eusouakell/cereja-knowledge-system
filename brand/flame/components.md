@@ -1,6 +1,6 @@
-# Chama components & editorial patterns
+# Flame components & editorial patterns
 
-Chama distinguishes **UI primitives** from **editorial organisms**.
+Flame distinguishes **UI primitives** from **editorial organisms**.
 
 The system should not force editorial content into generic product cards.
 

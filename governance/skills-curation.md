@@ -2,7 +2,7 @@
 
 Status: v0.1.
 
-Skills are external execution assets. They are **not canonical knowledge** and do not override Núcleo, Chama, the Editorial Engine or human approval.
+Skills are external execution assets. They are **not canonical knowledge** and do not override Núcleo, Flame, the Editorial Engine or human approval.
 
 ## Selection criteria
 
@@ -28,10 +28,10 @@ Role:
 - implementation/art-direction aid for distinctive frontend work.
 
 Use when:
-- building Chama-based pages/components.
+- building Flame-based pages/components.
 
 Constraint:
-- Chama remains the visual authority; the skill cannot invent the brand.
+- Flame remains the visual authority; the skill cannot invent the brand.
 
 ### Vercel Web Design Guidelines
 Source: https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines
@@ -52,7 +52,7 @@ Role:
 - design-to-code workflows and agent-readable design-system patterns.
 
 Use when:
-- prototyping Chama or extracting/structuring design context.
+- prototyping Flame or extracting/structuring design context.
 
 Constraint:
 - preserve Cereja provenance and do not treat generated design as canonical automatically.
@@ -68,7 +68,7 @@ Role:
 
 Use when:
 - analyzing a reference such as Jeleiz;
-- checking if Chama is specific enough for agents.
+- checking if Flame is specific enough for agents.
 
 Constraint:
 - extraction is evidence about another site's design, not permission to copy its identity.
@@ -83,7 +83,7 @@ Use when:
 - checking responsive flows, navigation, interactive states and regressions.
 
 Constraint:
-- tests should be derived from Chama/UX acceptance criteria, not generic "looks good" judgment.
+- tests should be derived from Flame/UX acceptance criteria, not generic "looks good" judgment.
 
 ## Tier B — useful specialist / reviewer
 
@@ -99,7 +99,7 @@ Good for:
 - responsive/component ideas.
 
 Do not use as:
-- automatic design-system generator that replaces Chama.
+- automatic design-system generator that replaces Flame.
 
 ### Humanizer
 Source: https://github.com/blader/humanizer
@@ -157,7 +157,7 @@ Before adoption, trace a skill to its upstream repository or inspect the downloa
 
 These are not canonical Cereja skills.
 
-They are **reference libraries** for UI, Figma components, motion and color exploration. Chama governs what is adopted.
+They are **reference libraries** for UI, Figma components, motion and color exploration. Flame governs what is adopted.
 
 ## Internal skills we should create later
 
@@ -165,8 +165,8 @@ External skills cover execution patterns. Cereja-specific judgment should become
 
 Candidates:
 
-- `chama-ui-review` — checks UI against Chama;
-- `chama-motion-review` — purpose + reduced-motion + performance;
+- `flame-ui-review` — checks UI against Flame;
+- `flame-motion-review` — purpose + reduced-motion + performance;
 - `nucleo-evidence-review` — claim/source/scope;
 - `cereja-metapost` — LinkedIn format contract;
 - `cereja-visual-magazine` — Instagram format contract;

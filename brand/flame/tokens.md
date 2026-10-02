@@ -1,4 +1,4 @@
-# Chama foundations & tokens
+# Flame foundations & tokens
 
 Status: v0.1.
 
@@ -21,24 +21,24 @@ Agents and components should consume semantic roles.
 ### Current observed brand foundations
 
 ```css
---chama-brand-cherry: #EA1945;
---chama-action-cherry: #BE1035;
---chama-brand-lime: #D7E25B;
---chama-ink: #3A3A3A;
---chama-white: #FFFFFF;
+--flame-brand-cherry: #EA1945;
+--flame-action-cherry: #BE1035;
+--flame-brand-lime: #D7E25B;
+--flame-ink: #3A3A3A;
+--flame-white: #FFFFFF;
 ```
 
 ### Semantic roles
 
 ```css
---color-canvas: var(--chama-white);
---color-surface-primary: var(--chama-white);
---color-text-primary: var(--chama-ink);
---color-text-on-action: var(--chama-white);
---color-action-primary: var(--chama-action-cherry);
---color-accent-signature: var(--chama-brand-cherry);
---color-accent-electric: var(--chama-brand-lime);
---color-focus: var(--chama-brand-cherry);
+--color-canvas: var(--flame-white);
+--color-surface-primary: var(--flame-white);
+--color-text-primary: var(--flame-ink);
+--color-text-on-action: var(--flame-white);
+--color-action-primary: var(--flame-action-cherry);
+--color-accent-signature: var(--flame-brand-cherry);
+--color-accent-electric: var(--flame-brand-lime);
+--color-focus: var(--flame-brand-cherry);
 ```
 
 Neutral, state and dark-mode palettes are **not canonical yet**. Add them through reviewed design work rather than inventing a large scale in advance.
@@ -105,7 +105,7 @@ Initial rules:
 
 ## Radius
 
-Chama should feel graphic rather than soft.
+Flame should feel graphic rather than soft.
 
 Proposed roles:
 

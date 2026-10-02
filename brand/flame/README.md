@@ -1,10 +1,10 @@
-# Chama — Cereja Design System
+# Flame — Cereja Design System
 
-**Chama** is the design system for Cereja Flamejante.
+**Flame** is the design system for Cereja Flamejante.
 
 Status: **v0.1 — proposed canonical design language**.
 
-The goal is not to turn Cereja into a generic SaaS component library. Chama treats the brand as a **digital editorial object**: part magazine, part product, part cultural artifact.
+The goal is not to turn Cereja into a generic SaaS component library. Flame treats the brand as a **digital editorial object**: part magazine, part product, part cultural artifact.
 
 ## Design intent
 
@@ -40,11 +40,19 @@ Motion can orient, reveal, connect, confirm or create personality. It should not
 
 ### Human before automation
 
-Agent-generated UI must follow Chama. Chama does not follow whatever aesthetic an agent happens to prefer.
+Agent-generated UI must follow Flame. Flame does not follow whatever aesthetic an agent happens to prefer.
 
 ### Accessible is expressive
 
 Accessibility is a design constraint that can increase clarity and character. It is not a reason to flatten the identity.
+
+### Beauty must have a non-visual equivalent
+
+The visual experience may be rich, kinetic and surprising. The semantic experience must remain complete, ordered and efficient without vision.
+
+**Beautiful for people who can see it; complete and practical for people using a screen reader.**
+
+No animation, image, layout trick or color treatment may carry essential meaning that disappears from the accessibility tree.
 
 ## System layers
 

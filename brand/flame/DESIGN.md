@@ -1,4 +1,4 @@
-# CHAMA — DESIGN.md
+# FLAME — DESIGN.md
 
 > Agent-readable visual contract for Cereja Flamejante.
 
@@ -118,7 +118,7 @@ Use motion to:
 
 Jeleiz is a user-selected reference for the **confidence and presence of animation**, not a visual identity to copy.
 
-60fps.design and 21st.dev are reference libraries for interaction patterns. Rebuild motion using Chama tokens and accessibility rules.
+60fps.design and 21st.dev are reference libraries for interaction patterns. Rebuild motion using Flame tokens and accessibility rules.
 
 See [motion.md](motion.md).
 
@@ -159,6 +159,12 @@ See [components.md](components.md).
 
 Baseline: **WCAG 2.2 AA** for production interfaces.
 
+Flame follows a dual-experience rule:
+
+> **The visual layer can be spectacular. The semantic layer must be complete.**
+
+A sighted user may receive extra delight through composition, color and movement. A screen-reader user must still receive the same meaning, hierarchy, state, navigation and ability to complete the task. Accessibility is not a simplified version of the design.
+
 Design and implementation must account for:
 
 - contrast;
@@ -168,10 +174,13 @@ Design and implementation must account for:
 - reflow and zoom;
 - reduced motion;
 - text scaling;
-- semantic HTML;
+- semantic HTML and meaningful DOM order;
+- screen-reader names, roles and states;
 - meaningful alternative text;
 - non-color cues;
 - cognitive clarity.
+
+No essential information may depend exclusively on visual position, color, image or animation.
 
 See [accessibility.md](accessibility.md).
 
@@ -199,6 +208,6 @@ Before generating or editing UI:
 4. state any new token/component required;
 5. preserve accessibility constraints;
 6. use references for pattern inspiration, not visual cloning;
-7. run the Chama QA checklist before calling work complete.
+7. run the Flame QA checklist before calling work complete.
 
-If a design request conflicts with Chama, propose the conflict explicitly rather than silently overriding the system.
+If a design request conflicts with Flame, propose the conflict explicitly rather than silently overriding the system.

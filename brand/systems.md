@@ -18,9 +18,9 @@ Núcleo is implemented by this repository: `cereja-knowledge-system`.
 
 It includes brand, worldview, editorial architecture, audience, thesis state, evidence, benchmarks, projects and governance.
 
-## Chama — Design System
+## Flame — Design System
 
-**Chama** is the visual and interaction source of truth.
+**Flame** is the visual and interaction source of truth.
 
 It answers:
 
@@ -31,7 +31,7 @@ It answers:
 - What accessibility constraints are non-negotiable?
 - How should an agent build UI without drifting into generic AI aesthetics?
 
-Chama lives under [brand/chama](chama/README.md).
+Flame lives under [brand/flame](flame/README.md).
 
 ## Relationship
 
@@ -39,7 +39,7 @@ Chama lives under [brand/chama](chama/README.md).
 NÚCLEO
 meaning · evidence · voice · thesis
         +
-CHAMA
+FLAME
 visual language · interaction · accessibility
         ↓
 FORMAT / CHANNEL CONTRACT
@@ -50,6 +50,6 @@ PUBLICATION OR PRODUCT
 The systems are independent but composable.
 
 Núcleo must not decide layout from content alone.
-Chama must not invent meaning or claims from visual needs.
+Flame must not invent meaning or claims from visual needs.
 
 The Cereja Editorial Engine can consume both systems when composing multiformat outputs.

@@ -1,4 +1,4 @@
-# Chama QA & governance
+# Flame QA & governance
 
 ## Definition of done
 

@@ -1,8 +1,8 @@
-# Chama accessibility baseline
+# Flame accessibility baseline
 
 Production target: **WCAG 2.2 AA** as the minimum baseline.
 
-Accessibility is also broader than formal conformance: Chama should support reading clarity, cognitive predictability and user control.
+Accessibility is also broader than formal conformance: Flame should support reading clarity, cognitive predictability and user control.
 
 ## Contrast
 
@@ -73,4 +73,34 @@ Avoid:
 
 ## Accessibility gate
 
-A component is not Chama-ready until its keyboard, focus, contrast, text scaling, responsive and reduced-motion states are specified.
+A component is not Flame-ready until its keyboard, focus, contrast, text scaling, responsive and reduced-motion states are specified.
+
+
+## Screen-reader experience contract
+
+The target is not a fallback. The non-visual experience is a first-class composition.
+
+- landmarks identify major page regions;
+- headings form a coherent outline independent of visual scale;
+- DOM order follows intended reading and task order;
+- visual reordering must not contradict screen-reader sequence;
+- controls expose clear accessible names, roles and states;
+- decorative animation stays out of the accessibility tree;
+- informative illustrations receive concise alt text;
+- complex visual stories receive a textual equivalent;
+- charts expose the underlying point, scope and source in text;
+- meaningful dynamic changes are announced intentionally, not by movement alone;
+- focus remains predictable when animated regions enter, leave or reorder.
+
+### Acceptance test
+
+A screen-reader pass should make it possible to answer:
+
+1. Where am I?
+2. What is this section about?
+3. What changed?
+4. What can I do here?
+5. What is the relationship between this content and the next?
+6. Can I complete the same task without interpreting color, position or animation?
+
+If the visual version communicates information that these questions cannot recover semantically, the design is incomplete.

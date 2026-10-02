@@ -1,4 +1,4 @@
-# Chama motion system
+# Flame motion system
 
 Motion is a brand layer and an interaction layer.
 
@@ -90,3 +90,33 @@ When `prefers-reduced-motion: reduce`:
 - Is the interaction response immediate enough?
 - Does reduced-motion preserve all meaning?
 - Does the animation still look intentional at low-end device performance?
+
+
+## Semantic motion contract
+
+Motion is an enhancement layer, never the only carrier of meaning.
+
+For every animated pattern:
+
+- the DOM and reading order must make sense before animation is applied;
+- screen-reader users must receive the same information, state and action opportunities without waiting for visual choreography;
+- decorative animated elements should be hidden from the accessibility tree when they add no semantic value;
+- text-splitting animation must preserve a coherent accessible name rather than exposing fragmented letters/words;
+- a reveal may delay pixels, but must not create a hidden semantic dependency;
+- dynamic updates that matter to task completion should use an appropriate announcement pattern rather than relying on movement;
+- focus must never be moved only to match animation;
+- reduced-motion mode should feel intentionally designed, not like a broken version of the experience.
+
+### Two-track review
+
+Every motion proposal is reviewed in two tracks:
+
+```text
+VISUAL TRACK
+Is it beautiful, authored, purposeful and performant?
+
+SEMANTIC TRACK
+Is meaning, order, state and action equally clear without sight or motion?
+```
+
+A motion pattern passes only when both tracks pass.
