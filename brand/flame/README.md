@@ -54,7 +54,7 @@ Flame should preserve meaning, control and task completion across different ways
 
 ### Canonical accessibility principle
 
-> **Expressão visual está no nosso DNA. Acessibilidade é um direito. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
+> **Expressão visual está no nosso DNA. Acessibilidade também. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
 
 This is the canonical product principle for Flame. It expresses the design direction; the detailed accessibility requirements live in [accessibility.md](accessibility.md).
 
