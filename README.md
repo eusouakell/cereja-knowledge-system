@@ -4,13 +4,13 @@ Canonical knowledge base for Cereja Flamejante.
 
 The system now has a name: **Núcleo**.
 
-Núcleo is the semantic source of truth for what Cereja knows, believes, has evidenced, has published and is still testing. Its companion visual system is **Chama**, documented under [brand/chama](brand/chama/README.md).
+Núcleo is the semantic source of truth for what Cereja knows, believes, has evidenced, has published and is still testing. Its companion visual system is **Flame**, documented under [brand/flame](brand/flame/README.md).
 
 ```text
 NÚCLEO
 meaning · evidence · voice · thesis
         +
-CHAMA
+FLAME
 visual language · interaction · accessibility
         ↓
 CEREJA EDITORIAL ENGINE
@@ -53,19 +53,19 @@ An external skill is an execution asset, not canonical authority.
 
 v0.2 expands the canonical system with:
 
-- named systems: **Núcleo** and **Chama**;
-- Chama v0.1: principles, agent-readable DESIGN.md, tokens, motion, components, accessibility and QA;
+- named systems: **Núcleo** and **Flame**;
+- Flame v0.1: principles, agent-readable DESIGN.md, tokens, motion, components, accessibility and QA;
 - an explicit [skills curation](governance/skills-curation.md);
 - a [Little Plains Agentic Brand Systems benchmark](benchmarks/little-plains-agentic-brand-systems.md).
 
-These are system contracts under active validation. Chama does not yet claim a complete production component library, and Núcleo does not claim that all historical material has been ingested or revalidated.
+These are system contracts under active validation. Flame does not yet claim a complete production component library, and Núcleo does not claim that all historical material has been ingested or revalidated.
 
 ## Start here
 
 - [System specification](SYSTEM-SPEC.md)
-- [Núcleo + Chama](brand/systems.md)
-- [Chama Design System](brand/chama/README.md)
-- [Chama agent contract](brand/chama/DESIGN.md)
+- [Núcleo + Flame](brand/systems.md)
+- [Flame Design System](brand/flame/README.md)
+- [Flame agent contract](brand/flame/DESIGN.md)
 - [Skills curation](governance/skills-curation.md)
 - [Domain model](governance/domain-model.md)
 - [Editorial architecture](editorial/editorial-architecture.md)
