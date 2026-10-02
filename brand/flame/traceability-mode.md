@@ -54,6 +54,16 @@ Example: IssueHero, navigation, VisualMagazineSpread, animated reference card.
 
 This is a Cereja adaptation. The upstream framework was not created specifically for Flame or design systems.
 
+## StrictDoc pilot
+
+The first machine-checkable pilot lives in [traceability-pilot/](traceability-pilot/README.md).
+
+It intentionally covers only a representative L0→L3 slice. StrictDoc validates the SDoc graph; a local sensor reports graph observations; a local deterministic check requires every non-L0 requirement to resolve a path back to the L0 design initiative.
+
+The pilot passed in GitHub Actions with StrictDoc 0.30.1. This validates the **mechanism**, not the design quality of Flame and not a decision to convert all Flame documentation into requirements.
+
+Expansion rule: only add traceability to high-impact or reusable decisions when the graph produces useful review evidence that would otherwise be easy to miss.
+
 ## When to use traceability mode
 
 Use for:
