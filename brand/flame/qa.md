@@ -23,10 +23,11 @@ Review in this order:
 2. **Hierarchy** — what should the eye understand first?
 3. **Reading** — can the content be consumed comfortably?
 4. **Interaction** — are states obvious and predictable?
-5. **Motion** — does movement have a job?
-6. **Accessibility** — can different users complete the experience?
-7. **Identity** — does it feel specifically Cereja?
-8. **Implementation** — are tokens/components reused correctly?
+5. **Motion** — does movement have a job, or is it competing for attention?
+6. **Cognitive load** — is the page asking users to process too many simultaneous signals?
+7. **Accessibility** — can different users perceive, understand and complete the experience across input/output modes?
+8. **Identity** — does it feel specifically Cereja?
+9. **Implementation** — are tokens/components reused correctly?
 
 ## Agent review
 
@@ -73,3 +74,20 @@ A successful experiment is promoted only after human review.
 - `1.0` — foundations, core components and at least web + one social format validated in real use.
 
 Do not claim a complete design system while typography, component states or real-channel validation remain pending.
+
+
+## Cognitive-accessibility review
+
+For expressive pages/components, reviewers should explicitly check:
+
+- number of simultaneous attention targets;
+- persistent or auto-starting movement;
+- visual density around reading/task areas;
+- predictability of navigation and controls;
+- recovery after distraction;
+- working-memory demands;
+- clarity of labels/instructions;
+- whether a calm/reduced-stimulation treatment is needed;
+- whether the experience has been tested with users beyond automated tooling.
+
+A visually impressive result is not Flame-ready if the visual performance makes focus, comprehension or task completion materially harder.

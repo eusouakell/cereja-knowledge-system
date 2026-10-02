@@ -85,6 +85,33 @@ Use when:
 Constraint:
 - tests should be derived from Flame/UX acceptance criteria, not generic "looks good" judgment.
 
+### Digital Design Werkzeuge
+Source: https://github.com/blude/digital-design-werkzeuge
+
+Role:
+- high-rigor design documentation and cross-level traceability;
+- separates initiative, solution, system and element decisions into L0–L3;
+- validates requirement type, upward relations and coverage with StrictDoc/Python tooling.
+
+Use when:
+- a design initiative is substantial enough that we need to answer "why does this exist?" and "what breaks if this changes?";
+- planning a major Flame redesign, website/product architecture or complex cross-channel pattern;
+- specifying an interaction whose accessibility, motion, states and implementation constraints should trace back to system/user goals;
+- turning a validated internal method into a future client-facing consulting artifact.
+
+Especially useful to Flame:
+- accessibility requirements can be explicit and traceable instead of buried in prose;
+- component and motion decisions can link back to system goals and impacts;
+- the framework prefers `TBD`/`TBC` over invented gaps and exposes contradictions rather than silently resolving them;
+- CI validation makes documentation quality inspectable.
+
+Constraint:
+- do **not** use L0–L3 for every small UI change or editorial component;
+- the upstream framework itself says small enhancements, prototypes and clear internal tools may not warrant a full brief;
+- its terminology is requirements/system-design oriented, so adapt the rigor to Cereja rather than reshaping Flame around it;
+- preserve Flame's current accessibility baseline and broader multimodal lens even when upstream examples cite older standards;
+- it is a traceability mode, not Flame's visual authority.
+
 ## Tier B — useful specialist / reviewer
 
 ### UI UX Pro Max

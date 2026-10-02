@@ -2,7 +2,21 @@
 
 Production target: **WCAG 2.2 AA** as the minimum baseline.
 
-Accessibility is also broader than formal conformance: Flame should support reading clarity, cognitive predictability and user control.
+Accessibility is broader than formal conformance and broader than screen-reader compatibility. Flame should support different ways of seeing, hearing, understanding and operating an interface while preserving meaning, agency and task completion.
+
+## Accessibility dimensions
+
+Flame reviews at least these dimensions:
+
+- **visual** — contrast, low vision, color-vision differences, text scaling, zoom and reflow;
+- **non-visual** — semantic structure, screen-reader navigation, names, roles, states and alternatives to visual media;
+- **motor** — keyboard operation, target size, no precision-only gestures, predictable focus and alternatives to drag/hover;
+- **vestibular / motion** — reduced motion, no essential parallax or movement dependency, no unnecessary continuous animation;
+- **cognitive** — clear hierarchy, stable navigation, manageable density, understandable labels, error prevention and recovery;
+- **auditory** — captions/transcripts when audio or video carries information; no audio-only essential instruction;
+- **language / comprehension** — plain interaction language, meaningful labels, no decorative jargon in task-critical UI.
+
+This list is an operating lens, not a claim to cover every disability or assistive-technology scenario.
 
 ## Contrast
 
@@ -78,6 +92,8 @@ A component is not Flame-ready until its keyboard, focus, contrast, text scaling
 
 ## Screen-reader experience contract
 
+Screen-reader support is one accessibility mode within the broader Flame baseline. It is documented separately because highly visual, motion-rich editorial interfaces create specific semantic risks.
+
 The target is not a fallback. The non-visual experience is a first-class composition.
 
 - landmarks identify major page regions;
@@ -104,3 +120,83 @@ A screen-reader pass should make it possible to answer:
 6. Can I complete the same task without interpreting color, position or animation?
 
 If the visual version communicates information that these questions cannot recover semantically, the design is incomplete.
+
+
+## Cognitive and sensory accessibility guardrails
+
+Flame's visual performance has a ceiling: **expressiveness stops where distraction, overload or loss of control begins**.
+
+This is especially important for people with attention differences, autism, dyslexia and other cognitive/learning differences.
+
+External guidance used as references:
+
+- **GAIA** — open recommendations for accessible interfaces with focus on autism:
+  https://gaia.wiki.br/
+- **.horcel** — inclusive-design recommendations focused on ADHD, dyslexia, dyscalculia and dysorthography:
+  https://horcel.wiki.br/
+- **W3C COGA — Making Content Usable for People with Cognitive and Learning Disabilities**:
+  https://www.w3.org/TR/coga-usable/
+
+These are complementary references. WCAG 2.2 AA remains the baseline conformance target; GAIA, .horcel and COGA help cover cognitive and learning needs that a WCAG checklist alone may not surface.
+
+### Stimulation budget
+
+A page or component should not maximize every expressive dimension at once.
+
+Avoid combinations such as:
+
+- multiple simultaneous moving regions;
+- high-contrast animation + dense text + changing background;
+- several competing hover effects near long-form reading;
+- auto-playing media beside task-critical content;
+- persistent movement that cannot be paused;
+- frequent layout shifts that force re-orientation.
+
+Prefer:
+
+- one dominant animated idea per viewport/section;
+- generous quiet areas between expressive moments;
+- stable reading surfaces;
+- clear hierarchy and whitespace;
+- user control over non-essential movement;
+- a low-stimulation or reading mode when a surface genuinely benefits from heavy art direction.
+
+### Attention and predictability
+
+- do not use animation merely to keep attention;
+- do not interrupt reading with unrelated motion;
+- preserve consistent component behavior;
+- make navigation and next steps predictable;
+- keep consequences of actions explicit;
+- provide recovery cues when users lose context;
+- avoid requiring users to remember hidden state or instructions.
+
+### Autism-informed considerations
+
+From GAIA's direction, Flame should especially preserve:
+
+- simple, understandable visual/textual vocabulary;
+- consistent navigation and layout;
+- control over distracting elements;
+- clear grouping and whitespace;
+- optional customization where it materially improves comfort;
+- multiple representations without forcing all representations at once.
+
+### ADHD / learning-difference-informed considerations
+
+From .horcel's direction, Flame should especially preserve:
+
+- clear typographic hierarchy;
+- shorter readable line lengths for long-form content;
+- left-aligned body text by default;
+- logical grouping and spacing;
+- concise, clearly signposted sections;
+- predictable patterns;
+- explicit instructions and feedback;
+- reduced working-memory burden.
+
+### Validation rule
+
+An interface can pass automated accessibility tests and still fail Flame if users with cognitive or learning differences cannot comfortably understand, focus on, recover within or complete the experience.
+
+For high-impact surfaces, include real-user or representative usability testing rather than relying only on automation.

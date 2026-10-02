@@ -159,11 +159,15 @@ See [components.md](components.md).
 
 Baseline: **WCAG 2.2 AA** for production interfaces.
 
-Flame follows a dual-experience rule:
+> **Expressão visual está no nosso DNA. Acessibilidade também. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
 
-> **The visual layer can be spectacular. The semantic layer must be complete.**
+Flame follows a multimodal experience rule:
 
-A sighted user may receive extra delight through composition, color and movement. A screen-reader user must still receive the same meaning, hierarchy, state, navigation and ability to complete the task. Accessibility is not a simplified version of the design.
+> **Expression may vary by mode. Meaning, control and task completion must not.**
+
+A sighted user may receive extra delight through composition, color and movement. A screen-reader user must receive coherent structure and equivalent meaning. A keyboard-only user must be able to operate the interface. A person sensitive to motion must receive an intentional reduced-motion experience. Users with low vision, color-vision differences, cognitive or motor constraints must not be excluded by the art direction.
+
+Accessibility is not one alternate version of the design; it is a set of conditions the same experience must satisfy.
 
 Design and implementation must account for:
 
@@ -178,7 +182,10 @@ Design and implementation must account for:
 - screen-reader names, roles and states;
 - meaningful alternative text;
 - non-color cues;
-- cognitive clarity.
+- cognitive clarity and manageable information density;
+- motor accessibility and non-precision input;
+- motion/vestibular safety;
+- captions/transcripts when audio or video carries meaning.
 
 No essential information may depend exclusively on visual position, color, image or animation.
 
