@@ -37,7 +37,7 @@ They also distinguish between values that can sync mechanically and higher-judgm
 
 ### 1. System of record, not another PDF
 
-This validates the direction of **Núcleo + Chama + Editorial Engine** as connected systems of record rather than static brand documentation.
+This validates the direction of **Núcleo + Flame + Editorial Engine** as connected systems of record rather than static brand documentation.
 
 ### 2. Minimum sufficient context
 
@@ -49,7 +49,7 @@ This is strongly aligned with the context-routing principle already used in the 
 
 A token such as a color value is not enough. The system needs to explain where the color belongs, where it does not, and why.
 
-Chama should therefore store:
+Flame should therefore store:
 - value;
 - semantic role;
 - usage rule;
@@ -72,7 +72,7 @@ FRESH AGENT
 → RETEST
 ```
 
-This could become one of the strongest Chama/Núcleo tests after the first real publication and site component work.
+This could become one of the strongest Flame/Núcleo tests after the first real publication and site component work.
 
 ### 5. Maintenance is part of the product
 
@@ -92,7 +92,7 @@ Cereja's emerging advantage is different:
 NÚCLEO
 knowledge · evidence · thesis · voice · context
         +
-CHAMA
+FLAME
 visual language · UI · motion · accessibility
         +
 EDITORIAL ENGINE
@@ -151,8 +151,8 @@ Do not price or sell this yet.
 
 Cereja should first demonstrate on itself:
 
-- a before/after task where a context-naive agent guesses without Núcleo/Chama and performs more consistently with them;
-- at least one real website/UI workflow using Chama;
+- a before/after task where a context-naive agent guesses without Núcleo/Flame and performs more consistently with them;
+- at least one real website/UI workflow using Flame;
 - at least one newsletter cycle using Núcleo + Editorial Packet + multiformat renderers;
 - human-edit delta and failure categories;
 - evidence that system updates improve a repeated task;
