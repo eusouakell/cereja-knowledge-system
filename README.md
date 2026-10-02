@@ -37,7 +37,7 @@ editorial/
 audience/
 thesis-graph/
 evidence/
-benchmarks/
+references/
 consulting/
 offers/
 projects/
@@ -46,7 +46,7 @@ governance/
 ```
 
 A published newsletter is historical evidence, not automatically current truth.
-A benchmark is external reference material, not Cereja strategy.
+A public reference records provenance and influence; deeper competitive or monetization analysis belongs in private research.
 An external skill is an execution asset, not canonical authority.
 
 ## Release status
@@ -56,7 +56,7 @@ v0.2 expands the canonical system with:
 - named systems: **Núcleo** and **Flame**;
 - Flame v0.1: principles, agent-readable DESIGN.md, tokens, motion, components, accessibility and QA;
 - an explicit [skills curation](governance/skills-curation.md);
-- a [Little Plains Agentic Brand Systems benchmark](benchmarks/little-plains-agentic-brand-systems.md).
+- a governed [public reference policy](governance/public-reference-policy.md) and concise [Little Plains reference](references/little-plains.md).
 
 These are system contracts under active validation. Flame does not yet claim a complete production component library, and Núcleo does not claim that all historical material has been ingested or revalidated.
 
@@ -77,3 +77,8 @@ These are system contracts under active validation. Flame does not yet claim a c
 Start with the [five-issue public inventory](archive/public-inventory.md), [source authority record](evidence/CF-027.md) and [provisional voice observations](editorial/voice-observations.md). Metadata indexing and a small body-reviewed sample are available; broader external claim validation remains pending.
 
 Execution design lives in [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine). Kell owns this project; the published archive remains historical evidence, not automatically canonical knowledge.
+
+
+## Rights
+
+See [RIGHTS.md](RIGHTS.md) and the [IP & licensing policy](governance/ip-licensing-policy.md). Public visibility does not grant a blanket open license to reuse Cereja's original systems or methodology.
