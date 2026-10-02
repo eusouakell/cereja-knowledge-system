@@ -52,7 +52,11 @@ The visual experience may be rich, kinetic and surprising. Accessibility is broa
 
 Flame should preserve meaning, control and task completion across different ways of perceiving and operating an interface — including visual, non-visual, keyboard, touch, reduced-motion and cognitively lower-load experiences.
 
-Kell's direction — **"lindo pra quem enxerga, prático pra quem usa leitor de tela"** — is kept as an intuitive design north star, not as a complete definition of accessibility.
+### Canonical accessibility principle
+
+> **Expressão visual está no nosso DNA. Acessibilidade é um direito. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
+
+This is the canonical product principle for Flame. It expresses the design direction; the detailed accessibility requirements live in [accessibility.md](accessibility.md).
 
 No animation, image, layout trick, sound or color treatment may be the only carrier of essential meaning or action.
 
