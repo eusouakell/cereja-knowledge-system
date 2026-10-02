@@ -76,3 +76,39 @@ Not selected as canonical references yet:
 - experimental web with robust reduced-motion fallbacks.
 
 Add a reference only when we can state **what we are learning from it**.
+
+
+## Accessibility references
+
+### GAIA — Guia de Acessibilidade de Interfaces para Autismo
+https://gaia.wiki.br/
+
+Use as:
+- cognitive/sensory design reference focused on autism;
+- guidance on distraction, predictable navigation, customization, clear grouping, readable content and redundant representations.
+
+Important:
+- GAIA complements rather than replaces WCAG;
+- its recommendations were developed with a particular research scope and should not be generalized as describing every autistic person.
+
+### .horcel — Design inclusivo para TDAH e dificuldades específicas de aprendizagem
+https://horcel.wiki.br/
+
+Use as:
+- cognitive-accessibility reference for ADHD, dyslexia, dyscalculia and dysorthography;
+- typography, reading, information organization, working-memory and predictability checks.
+
+Important:
+- .horcel is a recommendation guide, not a normative accessibility standard;
+- keep WCAG conformance requirements and validate with real users where possible.
+
+### W3C COGA — Making Content Usable for People with Cognitive and Learning Disabilities
+https://www.w3.org/TR/coga-usable/
+
+Use as:
+- broader cognitive/learning-accessibility design guidance;
+- patterns for focus, memory, predictability, clear content, error prevention, personalization and user testing.
+
+Important:
+- COGA is supplemental guidance beyond WCAG conformance requirements;
+- use it to catch barriers that automated WCAG-oriented checks may miss.
