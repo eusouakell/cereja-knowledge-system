@@ -113,6 +113,38 @@ Constraint:
 - preserve Flame's current accessibility baseline and broader multimodal lens even when upstream examples cite older standards;
 - it is a traceability mode, not Flame's visual authority.
 
+### Leadership Skills — orchestration reference
+Author: Alexandre R. de Mello (`areeberg`)
+Source: https://github.com/areeberg/leadership-skills
+License: MIT
+
+Role:
+- reference for composing multiple skills into an explicit handoff chain;
+- shows how one skill's structured output can become another skill's input;
+- useful for thinking about orchestration contracts rather than isolated prompts.
+
+What is relevant to Cereja:
+- sequential skill composition;
+- output/input contracts between skills;
+- cyclical workflows with review/learn-back;
+- clear trigger descriptions in each `SKILL.md`.
+
+Possible Cereja analogue:
+```text
+editorial-packet-builder
+→ evidence review
+→ composition
+→ channel renderer
+→ channel-fit review
+→ human approval
+→ learn-back
+```
+
+Constraint:
+- use as an architecture reference, not a domain benchmark;
+- Cereja's own schemas, evidence model, voice, accessibility and governance remain authoritative;
+- preserve upstream MIT attribution if code/text is copied or substantially adapted.
+
 ## Tier B — useful specialist / reviewer
 
 ### UI UX Pro Max

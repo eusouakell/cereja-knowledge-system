@@ -12,7 +12,7 @@
 
 **Evidence** — sources, scope, provenance and claim support.
 
-**Benchmarks** — external references separated into observed fact, interpretation, lesson and Cereja decision.
+**References** — concise public provenance notes: external source, observed pattern, relevance and boundary. Detailed benchmark/competitive analysis stays private.
 
 **Consulting** — working operating model and method hypotheses.
 
