@@ -120,3 +120,32 @@ Is meaning, order, state and action equally clear without sight or motion?
 ```
 
 A motion pattern passes only when both tracks pass.
+
+
+## Cognitive-load gate
+
+A motion treatment can be visually excellent and still be rejected.
+
+Reject or simplify it when it:
+
+- competes with the user's primary reading/task focus;
+- creates several simultaneous attention targets;
+- changes continuously without user intent;
+- makes orientation or recovery harder after distraction;
+- introduces sensory intensity disproportionate to the editorial value;
+- cannot be suppressed without losing content or functionality.
+
+Flame therefore treats **calm as a designed state**, not as the absence of design.
+
+For highly expressive surfaces, test both:
+
+```text
+FULL EXPRESSION
+brand-rich, motion-forward experience
+
+CALM / REDUCED STIMULATION
+same information and task,
+lower motion + lower competing visual demand
+```
+
+The second mode should feel intentional and authored, not like CSS was disabled.
