@@ -120,3 +120,83 @@ A screen-reader pass should make it possible to answer:
 6. Can I complete the same task without interpreting color, position or animation?
 
 If the visual version communicates information that these questions cannot recover semantically, the design is incomplete.
+
+
+## Cognitive and sensory accessibility guardrails
+
+Flame's visual performance has a ceiling: **expressiveness stops where distraction, overload or loss of control begins**.
+
+This is especially important for people with attention differences, autism, dyslexia and other cognitive/learning differences.
+
+External guidance used as references:
+
+- **GAIA** — open recommendations for accessible interfaces with focus on autism:
+  https://gaia.wiki.br/
+- **.horcel** — inclusive-design recommendations focused on ADHD, dyslexia, dyscalculia and dysorthography:
+  https://horcel.wiki.br/
+- **W3C COGA — Making Content Usable for People with Cognitive and Learning Disabilities**:
+  https://www.w3.org/TR/coga-usable/
+
+These are complementary references. WCAG 2.2 AA remains the baseline conformance target; GAIA, .horcel and COGA help cover cognitive and learning needs that a WCAG checklist alone may not surface.
+
+### Stimulation budget
+
+A page or component should not maximize every expressive dimension at once.
+
+Avoid combinations such as:
+
+- multiple simultaneous moving regions;
+- high-contrast animation + dense text + changing background;
+- several competing hover effects near long-form reading;
+- auto-playing media beside task-critical content;
+- persistent movement that cannot be paused;
+- frequent layout shifts that force re-orientation.
+
+Prefer:
+
+- one dominant animated idea per viewport/section;
+- generous quiet areas between expressive moments;
+- stable reading surfaces;
+- clear hierarchy and whitespace;
+- user control over non-essential movement;
+- a low-stimulation or reading mode when a surface genuinely benefits from heavy art direction.
+
+### Attention and predictability
+
+- do not use animation merely to keep attention;
+- do not interrupt reading with unrelated motion;
+- preserve consistent component behavior;
+- make navigation and next steps predictable;
+- keep consequences of actions explicit;
+- provide recovery cues when users lose context;
+- avoid requiring users to remember hidden state or instructions.
+
+### Autism-informed considerations
+
+From GAIA's direction, Flame should especially preserve:
+
+- simple, understandable visual/textual vocabulary;
+- consistent navigation and layout;
+- control over distracting elements;
+- clear grouping and whitespace;
+- optional customization where it materially improves comfort;
+- multiple representations without forcing all representations at once.
+
+### ADHD / learning-difference-informed considerations
+
+From .horcel's direction, Flame should especially preserve:
+
+- clear typographic hierarchy;
+- shorter readable line lengths for long-form content;
+- left-aligned body text by default;
+- logical grouping and spacing;
+- concise, clearly signposted sections;
+- predictable patterns;
+- explicit instructions and feedback;
+- reduced working-memory burden.
+
+### Validation rule
+
+An interface can pass automated accessibility tests and still fail Flame if users with cognitive or learning differences cannot comfortably understand, focus on, recover within or complete the experience.
+
+For high-impact surfaces, include real-user or representative usability testing rather than relying only on automation.
