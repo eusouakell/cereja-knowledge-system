@@ -159,6 +159,12 @@ See [components.md](components.md).
 
 Baseline: **WCAG 2.2 AA** for production interfaces.
 
+Flame follows a dual-experience rule:
+
+> **The visual layer can be spectacular. The semantic layer must be complete.**
+
+A sighted user may receive extra delight through composition, color and movement. A screen-reader user must still receive the same meaning, hierarchy, state, navigation and ability to complete the task. Accessibility is not a simplified version of the design.
+
 Design and implementation must account for:
 
 - contrast;
@@ -168,10 +174,13 @@ Design and implementation must account for:
 - reflow and zoom;
 - reduced motion;
 - text scaling;
-- semantic HTML;
+- semantic HTML and meaningful DOM order;
+- screen-reader names, roles and states;
 - meaningful alternative text;
 - non-color cues;
 - cognitive clarity.
+
+No essential information may depend exclusively on visual position, color, image or animation.
 
 See [accessibility.md](accessibility.md).
 
