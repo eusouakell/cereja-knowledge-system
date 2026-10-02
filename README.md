@@ -1,21 +1,29 @@
 # Cereja Knowledge System
 
-Canonical knowledge base for Cereja Flamejante.
+**Núcleo is the canonical knowledge system for Cereja Flamejante.**
 
-The system now has a name: **Núcleo**.
+Cereja is about **technology, culture, work and the strange things that happen when they meet**.
 
-Núcleo is the semantic source of truth for what Cereja knows, believes, has evidenced, has published and is still testing. Its companion visual system is **Flame**, documented under [brand/flame](brand/flame/README.md).
+Núcleo keeps the semantic side of that system explicit: what Cereja knows, what is evidence, what is interpretation, what has become a thesis, what is historical publication, what is still provisional and which source wins when context conflicts.
+
+Its visual counterpart is [**Flame**](brand/flame/README.md), the Cereja Design System.
+
+## The Cereja system
 
 ```text
 NÚCLEO
-meaning · evidence · voice · thesis
+meaning · evidence · voice · thesis · context
         +
 FLAME
-visual language · interaction · accessibility
+identity · UI · motion · accessibility
         ↓
 CEREJA EDITORIAL ENGINE
-context routing · composition · gates · human approval
+routing · composition · channel evals · human approval
+        ↓
+PUBLICATIONS / EXPERIENCES
 ```
+
+Núcleo does not decide visual treatment from content alone. Flame does not invent meaning or claims to satisfy a layout. The Editorial Engine composes from both.
 
 ## Knowledge architecture
 
@@ -28,7 +36,7 @@ SPEC
 → APPLICATIONS
 ```
 
-Domains:
+Main domains:
 
 ```text
 brand/
@@ -45,40 +53,75 @@ archive/
 governance/
 ```
 
-A published newsletter is historical evidence, not automatically current truth.
-A public reference records provenance and influence; deeper competitive or monetization analysis belongs in private research.
-An external skill is an execution asset, not canonical authority.
+## Operating rules
 
-## Release status
+A published newsletter is **historical evidence**, not automatically current truth.
 
-v0.2 expands the canonical system with:
+A public reference records **provenance and influence**, not the full competitive research notebook.
 
-- named systems: **Núcleo** and **Flame**;
-- Flame v0.1: principles, agent-readable DESIGN.md, tokens, motion, components, accessibility and QA;
-- an explicit [skills curation](governance/skills-curation.md);
-- a governed [public reference policy](governance/public-reference-policy.md) and concise [Little Plains reference](references/little-plains.md).
+An external skill is an **execution asset**, not canonical authority.
 
-These are system contracts under active validation. Flame does not yet claim a complete production component library, and Núcleo does not claim that all historical material has been ingested or revalidated.
+Generated language does not become Kell's opinion or a Cereja thesis without human approval.
+
+## Flame
+
+[Flame](brand/flame/README.md) is the visual and interaction source of truth for Cereja.
+
+It covers:
+
+- design principles;
+- color, typography, spacing and semantic tokens;
+- components and editorial patterns;
+- purposeful motion;
+- responsive behavior;
+- multimodal accessibility;
+- cognitive/sensory accessibility;
+- QA and governance;
+- optional traceability for high-impact design decisions.
+
+Its current accessibility principle is:
+
+> **Expressão visual está no nosso DNA. Acessibilidade também. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
+
+## External work and attribution
+
+Public external references live under [references/](references/).
+
+The public repo records only what materially informed Cereja and the relevant boundary. Deeper competitive analysis, monetization hypotheses and opportunity mapping are kept in private research.
+
+External skills are reviewed in [governance/skills-curation.md](governance/skills-curation.md).
+
+## Current status
+
+Núcleo and Flame are **V0.x systems under active validation**.
+
+Current gaps include:
+
+- broader archive ingestion;
+- voice-calibration approval from a larger sample;
+- real publishing cycles through the full Editorial Packet workflow;
+- production validation of Flame components;
+- controlled experiments on context routing and design traceability.
+
+No measured performance advantage is claimed from architecture alone.
 
 ## Start here
 
 - [System specification](SYSTEM-SPEC.md)
 - [Núcleo + Flame](brand/systems.md)
 - [Flame Design System](brand/flame/README.md)
-- [Flame agent contract](brand/flame/DESIGN.md)
-- [Skills curation](governance/skills-curation.md)
-- [Domain model](governance/domain-model.md)
+- [Flame agent-readable contract](brand/flame/DESIGN.md)
 - [Editorial architecture](editorial/editorial-architecture.md)
-- [Thesis template](thesis-graph/template.md)
 - [Evidence schema](evidence/schema.md)
+- [Thesis graph](thesis-graph/README.md)
+- [Skills curation](governance/skills-curation.md)
+- [Public reference policy](governance/public-reference-policy.md)
+- [IP & licensing policy](governance/ip-licensing-policy.md)
 
-## Public evidence and companion workflow
+## Companion execution layer
 
-Start with the [five-issue public inventory](archive/public-inventory.md), [source authority record](evidence/CF-027.md) and [provisional voice observations](editorial/voice-observations.md). Metadata indexing and a small body-reviewed sample are available; broader external claim validation remains pending.
-
-Execution design lives in [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine). Kell owns this project; the published archive remains historical evidence, not automatically canonical knowledge.
-
+Execution design lives in [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine).
 
 ## Rights
 
-See [RIGHTS.md](RIGHTS.md) and the [IP & licensing policy](governance/ip-licensing-policy.md). Public visibility does not grant a blanket open license to reuse Cereja's original systems or methodology.
+See [RIGHTS.md](RIGHTS.md). Public visibility does not grant a blanket open license to reuse Cereja's original systems, methodology or design-system specifications.
