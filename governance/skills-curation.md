@@ -86,6 +86,7 @@ Constraint:
 - tests should be derived from Flame/UX acceptance criteria, not generic "looks good" judgment.
 
 ### Digital Design Werkzeuge
+Author: Sarah Pratti (`blude`)
 Source: https://github.com/blude/digital-design-werkzeuge
 
 Role:
