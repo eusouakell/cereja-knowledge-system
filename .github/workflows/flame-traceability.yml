@@ -1,0 +1,52 @@
+name: Flame Traceability Pilot
+
+on:
+  pull_request:
+    paths:
+      - "brand/flame/**"
+      - "tests/test_flame_traceability.py"
+      - ".github/workflows/flame-traceability.yml"
+  push:
+    branches:
+      - strictdoc-flame-pilot
+      - main
+    paths:
+      - "brand/flame/**"
+      - "tests/test_flame_traceability.py"
+      - ".github/workflows/flame-traceability.yml"
+
+jobs:
+  traceability:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install StrictDoc
+        run: pip install strictdoc==0.30.1
+
+      - name: Validate and export StrictDoc graph
+        run: |
+          strictdoc export brand/flame/traceability-pilot/flame-pilot.sdoc \
+            --formats=json \
+            --output-dir /tmp/flame-strictdoc
+
+      - name: Run Flame graph sensor
+        run: |
+          python brand/flame/traceability-pilot/sensor.py \
+            brand/flame/traceability-pilot/flame-pilot.sdoc \
+            --output /tmp/flame-traceability-sensor.json
+          cat /tmp/flame-traceability-sensor.json
+
+      - name: Run deterministic traceability check
+        run: |
+          python brand/flame/traceability-pilot/check.py \
+            brand/flame/traceability-pilot/flame-pilot.sdoc
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
