@@ -42,6 +42,18 @@ Before accepting agent-generated UI, reject or revise if it introduces:
 - inaccessible hover-only behavior;
 - missing responsive/reduced-motion states.
 
+## Visual-delivery controls
+
+For screenshot/design-to-code experiments, use the controls in [visual-delivery/](visual-delivery/README.md).
+
+The order is intentional:
+
+1. visual fidelity is observed by **sensors**;
+2. semantic/accessibility invariants are enforced by **deterministic checks** where they are actually machine-verifiable;
+3. intent, hierarchy, reading, cognitive load and identity remain **human Flame gates**.
+
+A higher pixel/perceptual similarity score cannot waive a failed semantic or accessibility check.
+
 ## Change governance
 
 ### Minor change
@@ -74,7 +86,6 @@ A successful experiment is promoted only after human review.
 - `1.0` — foundations, core components and at least web + one social format validated in real use.
 
 Do not claim a complete design system while typography, component states or real-channel validation remain pending.
-
 
 ## Cognitive-accessibility review
 

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flame visual-delivery specimen</title>
+  <style>
+    :root {
+      --color-canvas: #FFFFFF;
+      --color-text-primary: #3A3A3A;
+      --color-action-primary: #BE1035;
+      --color-text-on-action: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--color-canvas);
+      color: var(--color-text-primary);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .skip {
+      position: absolute;
+      left: 1rem;
+      top: -4rem;
+    }
+    .skip:focus-visible { top: 1rem; }
+    a:focus-visible, button:focus-visible {
+      outline: 3px solid currentColor;
+      outline-offset: 3px;
+    }
+    main { max-width: 72rem; margin: 0 auto; padding: 4rem 1.5rem; }
+    .hero { animation: flame-enter 180ms ease-out both; }
+    @keyframes flame-enter {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .action {
+      display: inline-block;
+      background: var(--color-action-primary);
+      color: var(--color-text-on-action);
+      padding: 0.8rem 1rem;
+      text-decoration: none;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Pular para o conteúdo</a>
+  <main id="content">
+    <section class="hero" aria-labelledby="issue-title">
+      <p>FLAME / SPECIMEN</p>
+      <h1 id="issue-title">Expressão com estrutura</h1>
+      <p>Um artefato mínimo para provar gates mecânicos; não é um template visual canônico.</p>
+      <a class="action" href="#principles">Ver princípios</a>
+    </section>
+    <section id="principles" aria-labelledby="principles-title">
+      <h2 id="principles-title">Princípios</h2>
+      <img src="flame-reference.png" alt="">
+      <p>Fidelidade visual é observada. Semântica e acessibilidade podem bloquear.</p>
+    </section>
+  </main>
+</body>
+</html>
