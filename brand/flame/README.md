@@ -91,6 +91,7 @@ ACCESSIBILITY + QA
 - [Components and editorial patterns](components.md)
 - [Accessibility baseline](accessibility.md)
 - [Reference board](references.md)
+- [Fluent 2 × Cereja proposal and visual prototype](fluent-cereja.md) — scoped v0.2 proposal for review; v0.1 remains canonical until approval
 - [QA and governance](qa.md)
 
 ## Current known source material
