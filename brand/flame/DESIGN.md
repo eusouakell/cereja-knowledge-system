@@ -218,3 +218,11 @@ Before generating or editing UI:
 7. run the Flame QA checklist before calling work complete.
 
 If a design request conflicts with Flame, propose the conflict explicitly rather than silently overriding the system.
+
+## Fixed brand and media rules
+
+- Never rotate, incline, mirror, distort or redraw the Cereja signature or flame.
+- Use the full signature for brand naming; use only the original flame/leaf without lettering for icons and favicon.
+- Keep the public newsletter calling-card site separate from the GitHub-hosted DS documentation/catalogue.
+- Visual magazine compositions use imagery, crops, connections and provenance; do not default to title/body text panels.
+- See [brand-media-rules.md](brand-media-rules.md) for identity, imagery, attribution and application boundaries.

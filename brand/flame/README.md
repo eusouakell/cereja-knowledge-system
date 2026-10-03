@@ -86,6 +86,7 @@ ACCESSIBILITY + QA
 ## Start here
 
 - [Agent-readable design language](DESIGN.md)
+- [Fixed brand rules, media credits and site/catalogue separation](brand-media-rules.md)
 - [Foundations and tokens](tokens.md)
 - [Motion system](motion.md)
 - [Components and editorial patterns](components.md)

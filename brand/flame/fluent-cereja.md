@@ -24,7 +24,7 @@ Official references:
 - [Implementation libraries](https://fluent2.microsoft.design/get-started/develop)
 - [Fluent UI license](https://github.com/microsoft/fluentui/blob/master/LICENSE)
 
-The prototype uses original HTML/CSS, **not Fluent UI components**. No Microsoft images, fonts, icons, kit files or source code are embedded. It studies public design patterns and credits Microsoft. Fluent UI code is MIT, with an additional fonts/icons assets notice; do not infer that every Figma kit or Microsoft asset has that license. Check the specific asset's terms before future incorporation. No license change to Cereja materials is proposed.
+The prototype uses original HTML/CSS, **not Fluent UI components**. No Microsoft fonts, kit files or UI source code are embedded. Four Microsoft Fluent UI System Icons are included under their own MIT license, with notice and source revision recorded in [brand-media-rules.md](brand-media-rules.md). It studies public design patterns and credits Microsoft. Fluent UI code is MIT, with an additional fonts/icons assets notice; do not infer that every Figma kit or Microsoft asset has that license. Check the specific asset's terms before future incorporation. No license change to Cereja materials is proposed.
 
 ## Editorial decisions
 
@@ -52,10 +52,16 @@ Open [prototype/index.html](prototype/index.html) locally, or serve this directo
 python -m http.server 8766 --directory prototype
 ```
 
-Review the opening, archive, carousel and story. Shared CSS tokens are in [prototype/tokens.css](prototype/tokens.css). Assets come from the previously published Cereja site; no confidential company materials are included.
+Review the separate DS catalogue at index.html and the newsletter calling-card preview at [prototype/site.html](prototype/site.html). The catalogue contains identity, imagery, icons, actions and five visual-magazine compositions. Shared CSS tokens are in [prototype/tokens.css](prototype/tokens.css). Brand assets come from the previously published Cereja site. The icon frames the exact original flame without lettering. A conceptual AI illustration and four licensed Microsoft icons add the visual media layer. See [brand/media rules and credits](brand-media-rules.md). No confidential company materials are included.
 
 The prototype is a visual slice, not a reusable production component library. Next steps after visual review: resolve canonical fonts; consolidate approved tokens and component states; build exportable social templates; apply approved web components to the versioned site via a separate PR; validate browser accessibility and performance; then deploy to HostGator.
 
 ## Validation limits
 
 Basic browser checks cover desktop/mobile layout, image loading, horizontal overflow and disclosure behavior. Contrast calculation and semantic HTML checks do not establish complete WCAG conformance. Keyboard, zoom, screen-reader and final channel export reviews remain required before production. No paid model call, benchmark or automatic publication is involved.
+
+## Catalogue is not the public site
+
+The newsletter site invites reading and subscription. Flame lives in GitHub with its own HTML catalogue; a GitHub Pages view can be deployed after review. Do not put design tokens, implementation explanations or component documentation in the newsletter journey.
+
+The user's fixed identity rules are in [brand-media-rules.md](brand-media-rules.md). Never rotate the mark. The standalone icon contains only the original flame/leaf with no lettering.

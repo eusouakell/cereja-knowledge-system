@@ -1,15 +1,17 @@
-# Prototype QA — 2026-10-03
+# Flame catalogue QA — 2026-10-03
 
-Scope: original Flame HTML/CSS prototype, not deployed site.
+Current surfaces: index.html (DS catalogue), site.html (newsletter calling-card preview).
 
-- Browser desktop: 1440 × 1000; scroll width 1425, no horizontal overflow; both Cereja assets loaded.
-- Browser mobile: 390 × 844; scroll width 375, no horizontal overflow. All three carousel frames and story reported no vertical clipping.
-- Native details disclosure opened and exposed its explanatory text.
-- One h1, main landmark, pt-BR language, skip link, navigation label, alt text for logo; decorative symbol has empty alt.
-- White/action cherry contrast: 6.33:1. Ink/lime: 8.08:1. Muted/soft surface: 5.68:1.
-- Pink swatch uses a graphic border with its label on white, rather than small ink text on signature pink.
-- Focus-visible and reduced-motion CSS present.
-- Desktop and mobile screenshots saved locally alongside the prototype.
+- Desktop inspected at 1440×1000.
+- Mobile at 390×844: catalogue and site scroll width 375, no horizontal overflow.
+- All catalogue and site images loaded on mobile, including embedded original flame and four Fluent icons.
+- All five 4:5 visual-magazine frames have no vertical clipping on mobile.
+- Brand logo/flame elements computed transform: none.
+- Icon viewBox excludes lettering and dot; original raster is embedded unchanged, not redrawn.
+- One h1, main, pt-BR, skip link and labeled navigation on both surfaces.
+- Existing contrast: white/action 6.33:1; ink/lime 8.08:1; muted/soft 5.68:1.
+- Focus-visible and reduced-motion CSS retained.
+- Desktop carousel preview saved locally as revista-v2.jpg.
 
-Not verified: complete keyboard navigation, screen reader, 200–400% zoom, platform-safe areas, final 1080px export, video/captions, performance and complete WCAG conformance. Social text is demonstrative and requires editorial approval.
-No API request or paid benchmark. No production deployment.
+Pending: full keyboard/screen-reader/zoom review, final exports and caption/alt package, platform safe areas, image delivery optimization and performance. Catalogue remains a review prototype, not a finished DS or complete WCAG certification.
+No HostGator deployment or GitHub Pages settings change.
