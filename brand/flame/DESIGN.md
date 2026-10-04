@@ -67,6 +67,8 @@ Current website fallbacks:
 
 These are not yet frozen as canonical brand families. Preserve role behavior until the original brand font files/names are verified.
 
+A detailed v0.2 system proposal is under review in [typography-v0.2-proposal.md](typography-v0.2-proposal.md). It is not canonical until Kell approves it.
+
 ### Typography behavior
 
 - Display headlines may be large, compressed in line-height and editorially dramatic.
