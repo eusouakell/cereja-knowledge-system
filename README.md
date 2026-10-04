@@ -130,6 +130,7 @@ No measured performance advantage is claimed from architecture alone.
 - [Flame agent-readable contract](brand/flame/DESIGN.md)
 - [Editorial architecture](editorial/editorial-architecture.md)
 - [Voice and tone from the archive](editorial/voice-and-tone.md)
+- [Curation, authorship and quotation decisions](editorial/curation-decisions.md)
 - [Archive ingestion coverage](archive/public-inventory.md)
 - [Evidence schema](evidence/schema.md)
 - [Thesis graph](thesis-graph/README.md)
