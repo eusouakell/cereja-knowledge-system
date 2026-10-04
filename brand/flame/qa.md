@@ -102,3 +102,8 @@ For expressive pages/components, reviewers should explicitly check:
 - whether the experience has been tested with users beyond automated tooling.
 
 A visually impressive result is not Flame-ready if the visual performance makes focus, comprehension or task completion materially harder.
+
+
+## Distinctiveness
+
+Before calling a visual/product surface Flame-ready, run the [Flame distinctiveness gate](distinctiveness.md). Technical correctness and WCAG checks do not prove that a surface has specific product/brand authorship.
