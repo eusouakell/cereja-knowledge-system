@@ -112,3 +112,8 @@ The existing website establishes a working palette and interaction baseline:
 The current website implementation uses Georgia/Times for display and Arial/Helvetica for body/UI as fallbacks. **These are implementation facts, not yet a declaration that they are the canonical brand fonts.** The original font kit should be promoted here after its canonical source is recovered and reviewed.
 
 Do not silently substitute a trending typeface.
+
+
+## Component architecture
+
+Flame's current component maturity and the Fluent 2 adoption boundary are tracked in [Fluent 2 × Flame component coverage](fluent-component-coverage.md). New components should use the [component contract template](components/component-contract-template.md) rather than being defined only by prototype markup/CSS.
