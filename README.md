@@ -88,6 +88,18 @@ Its current accessibility principle is:
 
 > **Expressão visual está no nosso DNA. Acessibilidade também. Queremos movimento, surpresa e personalidade sem sacrificar foco, orientação, compreensão, conforto sensorial ou a capacidade de concluir uma tarefa. Cool is for everyone.**
 
+## Agentic execution layer
+
+The canonical cross-repository control plane and Agent Registry live in [eusouakell/agentic-factory](https://github.com/eusouakell/agentic-factory).
+
+Núcleo and Flame remain domain authorities. Factory agents may consume their contracts, but may not silently redefine canonical knowledge, thesis state, brand, typography, motion families or accessibility rules.
+
+Examples:
+- Flame UI Composer executes under Flame;
+- Motion Web Director and Editorial Typography Director propose changes under Flame governance;
+- Research Synthesist may contribute evidence, but cannot make a Cereja thesis canonical;
+- human gates remain required for canonical domain changes.
+
 ## External work and attribution
 
 Public external references live under [references/](references/).
@@ -123,9 +135,10 @@ No measured performance advantage is claimed from architecture alone.
 - [Public reference policy](governance/public-reference-policy.md)
 - [IP & licensing policy](governance/ip-licensing-policy.md)
 
-## Companion execution layer
+## Companion execution layers
 
-Execution design lives in [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine).
+- [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine) — editorial workflow, composition and publication gates.
+- [Agentic Factory](https://github.com/eusouakell/agentic-factory) — bounded specialist agents, control plane and cross-repository authority model.
 
 ## Rights
 
