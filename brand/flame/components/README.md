@@ -8,6 +8,7 @@ Start with:
 
 - [Fluent 2 × Flame component coverage audit](../fluent-component-coverage.md)
 - [Component contract template](component-contract-template.md)
+- [Button / Action control — pilot](button.md)
 
 ## Rule
 
