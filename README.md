@@ -114,7 +114,7 @@ Núcleo and Flame are **V0.x systems under active validation**.
 
 Current gaps include:
 
-- broader archive ingestion;
+- approval and maintenance of voice guidance based on the locally ingested #000–#030 archive;
 - voice-calibration approval from a larger sample;
 - real publishing cycles through the full Editorial Packet workflow;
 - production validation of Flame components;
@@ -129,6 +129,8 @@ No measured performance advantage is claimed from architecture alone.
 - [Flame Design System](brand/flame/README.md)
 - [Flame agent-readable contract](brand/flame/DESIGN.md)
 - [Editorial architecture](editorial/editorial-architecture.md)
+- [Voice and tone from the archive](editorial/voice-and-tone.md)
+- [Archive ingestion coverage](archive/public-inventory.md)
 - [Evidence schema](evidence/schema.md)
 - [Thesis graph](thesis-graph/README.md)
 - [Skills curation](governance/skills-curation.md)

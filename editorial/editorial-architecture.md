@@ -29,3 +29,19 @@ This fourth domain creates a bridge to consulting work without redefining Cereja
 A section is a delivery format.
 A domain is a knowledge context.
 One edition can combine several domains.
+
+## Archive-based composition guidance
+
+The [voice and tone guide](voice-and-tone.md) documents the curatorial connections observed across the archive. The [public inventory](../archive/public-inventory.md) records coverage and limits.
+
+The original section descriptions in issue #000 are:
+
+- Cherry Bomb: Notícias e Tendências Impactantes.
+- ALT+TAB: Uma aba do meu navegador que foge do tema.
+- On Fire: O que está em destaque.
+- Hot Startups: Destaques das startups para ficar de olho.
+- AiaiAI: Desbravando a Inteligência Artificial.
+
+Sections can develop different discoveries, offer a detour or change pace. Do not force every section to restate one thesis or fill every slot. Current author decisions take precedence over older stylistic patterns.
+
+Execution templates live in [Cereja Editorial Engine](https://github.com/eusouakell/cereja-editorial-engine/tree/main/formats/newsletter/editorias), keeping voice authority in Núcleo and composition instructions in the engine. New voice guidance remains pending Kell's review.
