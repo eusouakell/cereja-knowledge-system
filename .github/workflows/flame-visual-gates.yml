@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "brand/flame/visual-delivery/**"
+      - "brand/flame/prototype/**"
       - "brand/flame/qa.md"
       - "tests/test_flame_visual_gates.py"
       - ".github/workflows/flame-visual-gates.yml"
@@ -13,6 +14,7 @@ on:
       - main
     paths:
       - "brand/flame/visual-delivery/**"
+      - "brand/flame/prototype/**"
       - "brand/flame/qa.md"
       - "tests/test_flame_visual_gates.py"
       - ".github/workflows/flame-visual-gates.yml"
@@ -33,5 +35,17 @@ jobs:
         run: |
           python brand/flame/visual-delivery/check_html.py \
             brand/flame/visual-delivery/specimen.html
+      - name: Gate Flame catalogue
+        run: |
+          python brand/flame/visual-delivery/sensor_html.py \
+            brand/flame/prototype/index.html
+          python brand/flame/visual-delivery/check_html.py \
+            brand/flame/prototype/index.html
+      - name: Gate newsletter prototype
+        run: |
+          python brand/flame/visual-delivery/sensor_html.py \
+            brand/flame/prototype/site.html
+          python brand/flame/visual-delivery/check_html.py \
+            brand/flame/prototype/site.html
       - name: Run tests
         run: python -m unittest discover -s tests -v
