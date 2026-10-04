@@ -2,6 +2,10 @@
 
 **Flame** is the design system for Cereja Flamejante.
 
+[![Explore the Flame catalogue](assets/catalogue-banner.svg)](https://cerejaflamejante.com.br/flame/)
+
+[Open the visual catalogue](https://cerejaflamejante.com.br/flame/). Identity, foundations, components, visual language and applications are organized in one reference. Detailed examples live in the editorial book; earlier experiments are grouped under history.
+
 Status: **v0.1 — proposed canonical design language**.
 
 The goal is not to turn Cereja into a generic SaaS component library. Flame treats the brand as a **digital editorial object**: part magazine, part product, part cultural artifact.
