@@ -104,6 +104,30 @@ class FlameVisualGateTests(unittest.TestCase):
             self.assertTrue(report["has_reduced_motion"])
             self.assertEqual(validate_surface(report), [])
 
+    def test_root_relative_local_stylesheet_resolves_from_repository_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            assets = root / "assets"
+            pages = root / "pages"
+            assets.mkdir()
+            pages.mkdir()
+            html = pages / "site.html"
+            css = assets / "site.css"
+            html.write_text(
+                LINKED.replace("tokens.css", "/assets/site.css"),
+                encoding="utf-8",
+            )
+            css.write_text(LINKED_CSS, encoding="utf-8")
+
+            report = inspect_html_path(html, repository_root=root)
+
+            self.assertEqual(
+                report["resolved_linked_stylesheets"],
+                ["assets/site.css"],
+            )
+            self.assertEqual(report["skipped_external_stylesheets"], [])
+            self.assertEqual(validate_surface(report), [])
+
     def test_missing_local_stylesheet_fails_explicitly(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
