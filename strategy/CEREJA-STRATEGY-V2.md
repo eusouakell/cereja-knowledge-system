@@ -1,4 +1,4 @@
-# Cereja Strategy V2
+# Cereja Flamejante Strategy V2
 
 Status: working strategy for Kell review.  
 Updated: 2026-10-04.
@@ -9,7 +9,7 @@ This document consolidates the company-level direction that emerged after the or
 
 **Working definition**
 
-Cereja is a **knowledge, learning and context innovation company**. It designs multimodal systems, experiences and products that help people and organizations understand, learn, decide and work better with technology.
+Cereja Flamejante is a **knowledge, learning and context innovation company**. It designs multimodal systems, experiences and products that help people and organizations understand, learn, decide and work better with technology.
 
 This is a strategic descriptor, not a final tagline.
 
@@ -25,13 +25,13 @@ The company sits at the intersection of:
 
 Context Engineering is a priority authority category for Kell, but it does not need to absorb every capability of the company.
 
-## Kell and Cereja
+## Kell and Cereja Flamejante
 
 Kell is the public authority, founder and primary point of view.
 
 Her positioning should make her work legible without flattening a multidisciplinary trajectory into a list of unrelated roles. The current priority is to build visible, portable evidence around Context Engineering while preserving the supporting repertoire in UX, writing, marketing, learning, media, community and knowledge work.
 
-Cereja is the organization that turns that expertise into media, research, learning experiences, systems, products and consulting.
+Cereja Flamejante is the organization that turns that expertise into media, research, learning experiences, systems, products and consulting.
 
 The system should reduce dependence on private reputation or prior relationships. Public evidence must accumulate while the work happens.
 
@@ -110,7 +110,7 @@ Products can be both revenue and lead-generation mechanisms: a person can experi
 
 ## Two coupled flywheels
 
-Cereja should not force one flywheel to do every job.
+Cereja Flamejante should not force one flywheel to do every job.
 
 ### Authority and audience loop
 
@@ -232,7 +232,7 @@ LinkedIn personal is a strong early surface for testing this editorial job befor
 
 ## Multimodal principle
 
-Cereja deliverables are not limited to text or software.
+Cereja Flamejante deliverables are not limited to text or software.
 
 Choose modality according to the job:
 - text for argument, documentation and retrieval;
@@ -313,7 +313,7 @@ Company and editorial measurement should distinguish:
 - learning/product outcomes.
 
 Planned foundation:
-- GA4 for Cereja web properties;
+- GA4 for Cereja Flamejante web properties;
 - GA4 connection to Substack where supported;
 - GA4 for the personal portfolio;
 - UTM conventions across distribution;
@@ -332,11 +332,11 @@ Expected future scope:
 - speaking layer;
 - selected case/build evidence;
 - historical field-building evidence;
-- connection to Cereja without collapsing Kell into the company.
+- connection to Cereja Flamejante without collapsing Kell into the company.
 
 Implementation is expected to require substantial work and should happen after this strategy is stable. Codex will need the appropriate repository/site access, potentially through MCP or another approved integration, before implementation.
 
-## What Cereja is not yet
+## What Cereja Flamejante is not yet
 
 Do not claim:
 - a mature product portfolio;
