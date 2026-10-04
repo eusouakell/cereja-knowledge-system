@@ -40,6 +40,9 @@ It is not enough for:
 Primary reference:
 
 - Fluent 2 Web components: https://fluent2.microsoft.design/components/web/react/
+  - current React overview reviewed 2026-10-04;
+  - 47 components are listed on that overview;
+  - Flame distinguishes official Fluent catalogue components from additional product capabilities it may still need.
 - Fluent 2 design kits/tokens: https://fluent2.microsoft.design/get-started/design
 - Fluent component lifecycle/roadmap: https://fluent2.microsoft.design/component-roadmap/
 
@@ -102,12 +105,13 @@ Legend:
 |---|---|---|---|---|
 | Text | Partial | ADAPT | P0 | semantic roles + type tokens; connect to approved typography system |
 | Link | Partial | ADAPT | P0 | inline/nav/external/source variants; focus + visited policy |
-| Button | Partial | ADAPT | P0 | primary/secondary/subtle/icon; full state matrix |
+| Button | Partial | ADAPT | P0 | action semantics only; navigation uses Link/ActionLink styling; primary/secondary/subtle/icon; full state matrix |
 | Icon | Partial | ADAPT | P0 | semantic icons, brand icon boundary, accessible-name contract |
 | Image | Partial | ADAPT | P0 | content/decorative/evidence/conceptual + provenance |
 | Divider | Partial | ADAPT | P0 | editorial rhythm vs UI grouping |
+| Badge | Missing | ADAPT | P1 | small status/description indicator; do not use as generic decorative label |
 | Tag | Partial | ADAPT | P0 | topic/status/selection must not collapse into one pill style |
-| Surface / container | Partial | ADAPT | P0 | quiet/actionable/elevated/editorial; prevent card-everything |
+| Surface / container | Partial | FLAME PRIMITIVE | P0 | not a Fluent React catalogue component; quiet/actionable/elevated/editorial; prevent card-everything |
 | Field | Missing | ADOPT/ADAPT | P1 | standard label/help/error relationship |
 | Label | Missing | ADOPT | P1 | form semantics |
 | Input | Missing | ADAPT | P1 | text/search/filter settings |
@@ -122,19 +126,20 @@ Legend:
 | Accordion | Native-only | ADAPT | P1 | disclosure, not hierarchy navigation |
 | Tabs / Tablist | Missing | ADAPT | P1 | related peer views; not site nav |
 | Breadcrumb | Missing | ADAPT | P1 | research/docs hierarchy when depth exists |
+| Nav | Partial | ADAPT | P1 | primary app/site navigation; distinct from Menu and Tabs |
 | Menu | Missing | ADAPT | P1 | contextual actions/navigation |
 | Tooltip | Missing | ADOPT | P1 | supplemental info only; never essential instruction |
 | Dialog | Missing | ADAPT | P1 | confirmation/focused task; strong focus management |
 | Drawer | Missing | ADAPT | P1 | filters/detail/secondary workspaces |
 | Popover | Missing | ADAPT | P1 | local supplemental interaction |
 | Toast | Missing | ADAPT | P1 | transient result/status; must not hide critical errors |
-| Alert / message state | Missing | ADAPT | P1 | persistent warning/error/info/success |
+| Message bar / persistent message state | Missing | ADAPT | P1 | maps to Fluent Message bar; warning/error/info/success must remain persistent when action is required |
 | Spinner | Missing | ADAPT | P1 | indeterminate processing |
 | Skeleton | Missing | ADAPT | P1 | page/content loading without fake final content |
 | Progress | Missing | ADAPT | P1 | long agent/import/research operations |
 | List | Missing | ADAPT | P1 | simple repeated content/action rows |
-| Table | Missing | ADAPT | P2 | comparable rows/columns |
-| Data grid | Missing | CONDITIONAL | P2 | interactive data tasks only; do not use for editorial reading |
+| Table | Missing | FLAME CAPABILITY / CONDITIONAL | P2 | comparable rows/columns; not claimed as an entry in the current Fluent React overview baseline |
+| Data grid | Missing | FLAME CAPABILITY / CONDITIONAL | P2 | interactive data tasks only; not claimed as an entry in the current Fluent React overview baseline |
 | Tree | Missing | CONDITIONAL | P2 | thesis graph/folder hierarchy only when tree semantics fit |
 | Toolbar | Missing | CONDITIONAL | P2 | dense editor/research actions |
 | Card | Partial | WRAP | P2 | only for real object grouping; not default layout primitive |
@@ -147,7 +152,8 @@ Legend:
 | Spin button | Missing | CONDITIONAL | P3 | numeric increment/decrement task only |
 | Rating | Missing | REJECT DEFAULT | P3 | add only with a real rating task |
 | Tag picker | Missing | CONDITIONAL | P2 | taxonomy/metadata authoring |
-| Tree/People pickers | Missing | CONDITIONAL | P3 | only with real hierarchy/people workflows |
+| Fluent Provider | Missing | IMPLEMENTATION ADAPTER | P2 | not a visible Flame component; only relevant if a Fluent React/Web Components adapter is actually used |
+| People picker / other collaboration controls | Missing | OFF-CATALOG / CONDITIONAL | P3 | not part of the current Fluent React overview baseline; add only from a real collaboration workflow |
 
 ## Cereja-specific components
 
@@ -368,3 +374,12 @@ Someone should be able to build:
 4. an editorial operations application;
 
 without inventing new interaction patterns for every screen and without making every surface look like Fluent, Microsoft, a SaaS starter kit or an AI-generated dashboard.
+
+
+## Official-catalogue reconciliation — 2026-10-04
+
+The current Fluent 2 React overview includes Badge, Nav and Fluent Provider, which the first Flame audit had not classified explicitly. They are now represented above.
+
+The first audit also mixed some Flame product capabilities with direct Fluent catalogue references. That is useful for planning, but the distinction now stays explicit: Surface/container is a Flame primitive concept; Table/DataGrid are product capabilities in this roadmap rather than claims about the current official React overview; people-picker/collaboration controls remain off-catalogue future needs unless a real workflow requires them.
+
+This keeps Fluent as a solved-behavior reference without turning its catalogue into Flame's backlog by default.
