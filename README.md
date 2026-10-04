@@ -65,6 +65,11 @@ Generated language does not become Kell's opinion or a Cereja thesis without hum
 
 ## Flame
 
+[![Explore the Flame catalogue](brand/flame/assets/catalogue-banner.svg)](https://cerejaflamejante.com.br/flame/)
+
+[Open the visual catalogue](https://cerejaflamejante.com.br/flame/): identity, foundations, components and applications.
+
+
 [Flame](brand/flame/README.md) is the visual and interaction source of truth for Cereja.
 
 It covers:
