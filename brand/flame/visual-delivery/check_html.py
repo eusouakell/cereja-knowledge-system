@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from sensor_html import inspect_html
+from sensor_html import inspect_html_path
 
 
 def validate_surface(report: dict) -> list[str]:
@@ -26,6 +26,9 @@ def validate_surface(report: dict) -> list[str]:
     if report["nonnative_click_handlers"]:
         tags = ", ".join(report["nonnative_click_handlers"])
         errors.append(f"non-native clickable element(s) detected: {tags}")
+    if report.get("missing_linked_stylesheets"):
+        missing = ", ".join(report["missing_linked_stylesheets"])
+        errors.append(f"local stylesheet(s) not found: {missing}")
     if (report["links"] or report["buttons"]) and not report["has_focus_style"]:
         errors.append("interactive surface requires an explicit :focus or :focus-visible style")
     if report["uses_keyframes"] and not report["has_reduced_motion"]:
@@ -39,7 +42,7 @@ def main() -> int:
     parser.add_argument("html", type=Path)
     args = parser.parse_args()
 
-    report = inspect_html(args.html.read_text(encoding="utf-8"))
+    report = inspect_html_path(args.html)
     errors = validate_surface(report)
     if errors:
         for error in errors:
