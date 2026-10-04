@@ -1,23 +1,13 @@
-# Provisional voice calibration
+# Calibração de voz: registro de evolução
 
-Status: observations and proposed review criteria, pending Kell's approval. Reviewed on 2026-10-01. Basis: [CF-027](../evidence/CF-027.md), [CF-028](../evidence/CF-028.md), [CF-029](../evidence/CF-029.md). Three adjacent issues are a convenience sample, not a representative voice model.
+Status: proposta ampliada, pendente de validação de Kell. Atualização em 4 de outubro de 2026.
 
-## Observations and counterexamples
+A análise anterior se apoiava nas três edições adjacentes #027–#029. A nova ingestão local cobre as 31 publicações #000–#030, com análise estrutural de todas e leitura aprofundada de exemplos distribuídos pelo acervo. A amostra aprofundada e os limites estão documentados no [inventário](../archive/public-inventory.md).
 
-| Pattern | Evidence | Limit |
-|---|---|---|
-| Direct address and conversational entry | CF-027/028/029 | Does not authorize invented first-person experience |
-| Recurring named sections | CF-028/029 | Navigation can recur without fixing the length or internal structure |
-| Cultural references connect subjects | CF-028/029 | A relevant connection matters more than a compulsory metaphor |
-| Closing invitation | CF-027/028 | CF-029 ends with a tool recommendation, not a closing question |
-| Flexible personal material | CF-028 has an opening anecdote; CF-029 a longer diary passage | Personal disclosure is author-controlled, never an agent requirement |
+O [guia de voz e tom](voice-and-tone.md) reúne as evidências e orientações atuais. A principal mudança é tratar a costura como percurso entre descobertas que acrescentam assunto, preservando diferenças de função e ritmo entre editorias. A recorrência de uma tese em todos os blocos não substitui essa composição.
 
-These are historical editorial choices, not evidence of current beliefs or factual accuracy. Comments, platform UI and third-party quotations are excluded from Kell's voice sample.
+As instruções recentes de Kell prevalecem sobre padrões históricos: evitar slogans por oposição, numeração retórica e experiências inventadas. Não inferir método de autoria a partir de traços de estilo. Citações, textos de convidados, sinopses e interface não são amostras autorais de Kell.
 
-## Proposed constraints
+## Aprovação
 
-Use accessible, concrete language; distinguish sourced claims, interpretation and questions. Preserve room for surprise and cultural connections without imitating personal anecdotes. Do not turn promotional superlatives or unverified claims into house style. Section names and questions are optional choices for the format, not a mechanical recipe.
-
-## Promotion to canonical guidance
-
-Kell reviews each proposed criterion and marks accept, revise or reject with a date. Document exceptions and review a non-adjacent issue before claiming broader coverage. Approval of repository documentation alone does not authorize publication of a newsletter draft. Keep benchmark voice scores unreported until the guidance and review method are approved.
+Kell pode aceitar, revisar ou rejeitar as orientações. Aprovar esta documentação não equivale a aprovar uma newsletter nem comprova ganho de qualidade. Benchmark e pontuações de voz continuam pendentes.
