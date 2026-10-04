@@ -87,7 +87,10 @@ def _local_stylesheet_path(html_path: Path, href: str, repo_root: Path) -> Path 
     if not relative:
         return None
 
-    candidate = (html_path.parent / relative).resolve()
+    if relative.startswith("/"):
+        candidate = (repo_root / relative.lstrip("/")).resolve()
+    else:
+        candidate = (html_path.parent / relative).resolve()
     try:
         candidate.relative_to(repo_root.resolve())
     except ValueError:
