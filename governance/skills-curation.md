@@ -145,6 +145,24 @@ Constraint:
 - Cereja's own schemas, evidence model, voice, accessibility and governance remain authoritative;
 - preserve upstream MIT attribution if code/text is copied or substantially adapted.
 
+### Databricks Consort UI/UX principles — architecture benchmark
+Source: https://github.com/databricks-solutions/consort/tree/main/skills/ui-ux-design-principles
+
+Role:
+- architecture benchmark for separating durable principles, project instantiation and verification;
+- useful reference for mapping experience rules to checks, evals and human review.
+
+What Cereja adopted conceptually:
+- canonical principles should live outside agent prompts;
+- project/brand contracts specialize a broader canon;
+- a rule should state how it is verified instead of treating all quality as one kind of check;
+- handoff artifacts and explicit gates reduce role drift.
+
+Constraint:
+- the repository uses a Databricks-specific license; do not copy or vendor its text/code into Cereja;
+- implementation-specific Consort rules such as Playwright seams, framework choices or hard latency thresholds are not universal UX canon;
+- Nielsen/W3C primary sources and Cereja's own decisions remain the basis of the internal experience documents.
+
 ## Tier B — useful specialist / reviewer
 
 ### UI UX Pro Max
