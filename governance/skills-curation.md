@@ -145,23 +145,25 @@ Constraint:
 - Cereja's own schemas, evidence model, voice, accessibility and governance remain authoritative;
 - preserve upstream MIT attribution if code/text is copied or substantially adapted.
 
-### Databricks Consort UI/UX principles — architecture benchmark
+## Reviewed architecture benchmarks — do not install or vendor
+
+### Databricks Consort UI/UX principles
 Source: https://github.com/databricks-solutions/consort/tree/main/skills/ui-ux-design-principles
 
-Role:
-- architecture benchmark for separating durable principles, project instantiation and verification;
-- useful reference for mapping experience rules to checks, evals and human review.
+Why it was reviewed:
+- its public structure illustrates separation between durable principles, project instantiation and verification;
+- it provides a useful comparison for thinking about checks, evals, gates and role boundaries.
 
-What Cereja adopted conceptually:
-- canonical principles should live outside agent prompts;
-- project/brand contracts specialize a broader canon;
-- a rule should state how it is verified instead of treating all quality as one kind of check;
-- handoff artifacts and explicit gates reduce role drift.
+Cereja decision:
+- keep the architectural lesson, not the artifact;
+- canonical experience principles live in Núcleo and Flame in Cereja's own wording;
+- use Nielsen/W3C primary sources for the underlying usability/accessibility principles;
+- do not install, vendor, invoke or copy Consort material.
 
-Constraint:
-- the repository uses a Databricks-specific license; do not copy or vendor its text/code into Cereja;
-- implementation-specific Consort rules such as Playwright seams, framework choices or hard latency thresholds are not universal UX canon;
-- Nielsen/W3C primary sources and Cereja's own decisions remain the basis of the internal experience documents.
+License boundary:
+- the repository uses a Databricks-specific license tied to Databricks Services;
+- no Consort text/code should be incorporated into Cereja;
+- implementation-specific examples such as Playwright seams, framework choices and hard latency thresholds are not part of Cereja's universal experience canon.
 
 ## Tier B — useful specialist / reviewer
 
