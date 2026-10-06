@@ -240,7 +240,8 @@ If a design request conflicts with Flame, propose the conflict explicitly rather
 ## Fixed brand and media rules
 
 - Never rotate, incline, mirror, distort or redraw the Cereja signature or flame.
-- Use the full signature for brand naming; use only the original flame/leaf without lettering for icons and favicon.
+- Use the full signature when the brand name needs to be introduced or read. The original flame/leaf without lettering may also act as a subtle brand signifier when the Cereja Flamejante context is already established, including editorial closing marks, small signatures, icons and favicon.
+- The isolated flame identifies the brand; it is not a generic decorative or interface icon. Do not repeat it mechanically across a composition.
 - Keep the public newsletter calling-card site separate from the GitHub-hosted DS documentation/catalogue.
 - Visual magazine compositions use imagery, crops, connections and provenance; do not default to title/body text panels.
 - See [brand-media-rules.md](brand-media-rules.md) for identity, imagery, attribution and application boundaries.
