@@ -1,6 +1,6 @@
 # FLAME — DESIGN.md
 
-> Agent-readable visual contract for Cereja Flamejante.
+> Agent-readable design and experience contract for Cereja Flamejante.
 
 Status: v0.1. Read [README.md](README.md) for purpose and limits.
 
@@ -155,7 +155,24 @@ Editorial organisms:
 
 See [components.md](components.md).
 
-## 8. Accessibility
+## 8. Experience behavior
+
+Interactive Flame surfaces inherit the [Flame experience contract](experience.md), which instantiates Núcleo's durable experience principles.
+
+Visual expression never overrides:
+
+- usability;
+- understandable system state;
+- user control and recovery;
+- information architecture;
+- accessibility;
+- task completion.
+
+**Consistency means predictable behavior and shared vocabulary, not identical composition.**
+
+Load `experience.md` when the task includes navigation, interaction, forms, state, task completion or a product/app flow. Editorial/social assets should apply only the relevant hierarchy, accessibility, cognitive-load and authorship principles rather than forcing transactional rules.
+
+## 9. Accessibility
 
 Baseline: **WCAG 2.2 AA** for production interfaces.
 
@@ -191,7 +208,7 @@ No essential information may depend exclusively on visual position, color, image
 
 See [accessibility.md](accessibility.md).
 
-## 9. Responsive behavior
+## 10. Responsive behavior
 
 Use content-driven breakpoints rather than device-brand assumptions.
 
@@ -205,17 +222,18 @@ Minimum expectations:
 - animation never becomes required to understand state;
 - horizontal scrolling is reserved for explicitly scrollable media patterns.
 
-## 10. Agent behavior
+## 11. Agent behavior
 
 Before generating or editing UI:
 
 1. read this file;
-2. identify the component/pattern being used;
-3. use semantic tokens;
-4. state any new token/component required;
-5. preserve accessibility constraints;
-6. use references for pattern inspiration, not visual cloning;
-7. run the Flame QA checklist before calling work complete.
+2. load only the applicable linked contract; use [experience.md](experience.md) for interactive/product behavior;
+3. identify the component/pattern being used;
+4. use semantic tokens;
+5. state any new token/component required;
+6. preserve accessibility constraints;
+7. use references for pattern inspiration, not visual cloning;
+8. run the Flame QA checklist before calling work complete.
 
 If a design request conflicts with Flame, propose the conflict explicitly rather than silently overriding the system.
 
