@@ -146,3 +146,7 @@ No measured performance advantage is claimed from architecture alone.
 ## Rights
 
 See [RIGHTS.md](RIGHTS.md). Public visibility does not grant a blanket open license to reuse Cereja's original systems, methodology or design-system specifications.
+
+## Content Design
+
+[Princípios de Content Design](editorial/content-design.md) e [linguagem simples](editorial/linguagem-simples.md) são fontes do Núcleo para execução editorial e de interface. A skill aplica essas orientações; fluxos de Instagram e composição visual mantêm escopo próprio.

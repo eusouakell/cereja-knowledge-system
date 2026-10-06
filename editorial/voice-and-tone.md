@@ -85,3 +85,7 @@ Leia em voz alta e responda:
 - O fechamento pode ser curto sem resumir a edição numa moral?
 
 O leitor deve sentir que acompanhou uma curadoria interessante, com a presença de Kell e espaço para suas próprias associações.
+
+## Content Design e linguagem simples
+
+Consultar [princípios de Content Design](content-design.md) e [linguagem simples](linguagem-simples.md). A adaptação solicitada por Kell preserva autoria e repertório enquanto melhora compreensão e uso da informação. Estratégia e padrões de Instagram permanecem no fluxo especialista do canal.
