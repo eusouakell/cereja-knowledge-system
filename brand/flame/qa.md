@@ -2,6 +2,8 @@
 
 ## Definition of done
 
+A design change is ready for review when the applicable layers are known. Load the smallest sufficient contract rather than every Flame file.
+
 A design change is ready for review when:
 
 - it uses semantic tokens;
@@ -107,3 +109,32 @@ A visually impressive result is not Flame-ready if the visual performance makes 
 ## Distinctiveness
 
 Before calling a visual/product surface Flame-ready, run the [Flame distinctiveness gate](distinctiveness.md). Technical correctness and WCAG checks do not prove that a surface has specific product/brand authorship.
+
+
+## Experience enforcement matrix
+
+Use [experience.md](experience.md) for the full Flame interpretation and [../experience-design-principles.md](../experience-design-principles.md) for the durable Núcleo canon.
+
+| Concern | Primary defense |
+|---|---|
+| semantic tokens / declared contrast | deterministic check where available |
+| accessible names / HTML semantics | automated accessibility check + review |
+| keyboard / focus / recovery | E2E + human review |
+| primary flows / IA | flow review; E2E when interactive |
+| hierarchy / reading order | structured design eval + human review |
+| cognitive load | eval + human review |
+| motion purpose / reduced motion | checks where mechanical + eval |
+| distinctiveness / authorship | Flame distinctiveness eval + Kell gate |
+
+Do not label a subjective design judgment as deterministic merely because an agent can score it.
+
+## Progressive-disclosure rule
+
+Review the task at the narrowest useful level:
+
+1. approved task/project artifact;
+2. applicable Flame contract;
+3. applicable Núcleo principle if the Flame contract does not resolve the question;
+4. external reference or execution skill last.
+
+Do not reopen an approved upstream decision unless there is a documented conflict, missing state or missing authority.
