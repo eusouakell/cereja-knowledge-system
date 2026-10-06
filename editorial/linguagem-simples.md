@@ -51,3 +51,7 @@ O guia da Prefeitura de São Paulo recomenda evitar frases com mais de 20 palavr
 - [Manual de Linguagem Simples de Londrina](https://repositorio.londrina.pr.gov.br/index.php/menu-procuradoria/manual-de-linguagem-simples/72837-manual-de-linguagem-simples-2/file). PDF de 30 páginas. Numeração impressa: p. 12 ordem direta, voz ativa e frases curtas; p. 13 intercalações, expressões vagas, palavras comuns e termos indispensáveis; p. 14 parágrafos e prioridade da informação; p. 15 organização e exemplo. A página impressa 13 corresponde à 14ª página do PDF; ambas foram inspecionadas.
 
 Documentos consultados em 06/10/2026. Valores orientativos pertencem aos contextos de origem. Adaptar sem perder informação ou voz.
+
+## Aplicação por contexto
+
+Consultar [mecânica editorial](mecanica-editorial.md). O limite de palavras pode ser configurado por briefing, preservando significado e citações. A adaptação atual da Cereja concentra-se em português brasileiro.

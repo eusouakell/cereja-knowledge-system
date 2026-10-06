@@ -30,3 +30,7 @@ Linguagem simples pode variar por contexto. A newsletter conserva variedade de r
 O Núcleo mantém significado, voz e princípios; Flame mantém identidade visual; o Editorial Engine aplica formatos e avaliações. A skill de Content Design não é dona da estratégia ou do layout. PASS técnico tem escopo limitado. Uma peça rejeitada por Kell continua em revisão.
 
 Não prometer efeito sobre conversão, tempo de leitura ou conformidade WCAG sem avaliação apropriada. Limites de caracteres e regras de plataforma precisam de fonte atual.
+
+## Mecânica e perfis
+
+Aplicar [mecânica editorial](mecanica-editorial.md): guias, guardas, verificações e sensores. O briefing seleciona o perfil contextual. Para site, incluir SEO e GEO; preservar autoria, precisão e acessibilidade em todos os perfis.
