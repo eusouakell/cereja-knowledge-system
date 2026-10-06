@@ -25,6 +25,8 @@ PUBLICATIONS / EXPERIENCES
 
 Núcleo does not decide visual treatment from content alone. Flame does not invent meaning or claims to satisfy a layout. The Editorial Engine composes from both.
 
+For experience work, Núcleo also maintains the durable [Experience Design Principles](brand/experience-design-principles.md). Flame instantiates those principles for Cereja; surface and project contracts narrow them further. Agents consume the smallest applicable layer instead of receiving the whole system by default.
+
 ## Knowledge architecture
 
 ```text
@@ -126,7 +128,9 @@ No measured performance advantage is claimed from architecture alone.
 
 - [System specification](SYSTEM-SPEC.md)
 - [Núcleo + Flame](brand/systems.md)
+- [Experience Design Principles](brand/experience-design-principles.md)
 - [Flame Design System](brand/flame/README.md)
+- [Flame experience contract](brand/flame/experience.md)
 - [Flame agent-readable contract](brand/flame/DESIGN.md)
 - [Editorial architecture](editorial/editorial-architecture.md)
 - [Voice and tone from the archive](editorial/voice-and-tone.md)
