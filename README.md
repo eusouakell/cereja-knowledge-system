@@ -65,6 +65,8 @@ An external skill is an **execution asset**, not canonical authority.
 
 Generated language does not become Kell's opinion or a Cereja thesis without human approval.
 
+Human approval also does not rewrite authorship provenance: **“approved by Kell” is not the same as “written or said by Kell.”** Editorial records preserve that distinction when it matters for voice, evidence or system learning.
+
 ## Flame
 
 [![Explore the Flame catalogue](brand/flame/assets/catalogue-banner.svg)](https://cerejaflamejante.com.br/flame/)
