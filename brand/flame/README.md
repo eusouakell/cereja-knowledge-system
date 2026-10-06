@@ -46,6 +46,10 @@ Motion can orient, reveal, connect, confirm or create personality. It should not
 
 Agent-generated UI must follow Flame. Flame does not follow whatever aesthetic an agent happens to prefer.
 
+### Brand presence can be subtle
+
+The full Cereja Flamejante signature is used when the brand name must be introduced or read. The isolated flame may act as a subtle brand signifier when context already establishes the brand, including editorial closing marks and small owned-surface signatures. It should identify the brand, not become repetitive decoration.
+
 ### Accessible is expressive
 
 Accessibility is a design constraint that can increase clarity and character. It is not a reason to flatten the identity.

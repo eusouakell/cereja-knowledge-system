@@ -3,18 +3,18 @@
 User-approved rules recorded 2026-10-03:
 
 1. Never rotate, incline, mirror, distort or redraw the Cereja signature or flame.
-2. Use the complete signature for brand naming. Use only the original flame and leaf, without lettering underneath, for icons and favicon.
+2. Use the complete signature when the brand name itself needs to be read or introduced. The original flame and leaf, without lettering underneath, may also be used as a **subtle brand signifier** when the Cereja Flamejante context is already established — including editorial closing marks, small signatures, icons and favicon.
 3. Brand assets are fixed identity, not generative illustrations.
 4. The public site is the newsletter's calling card: positioning, archive, author, channels, reading and subscription.
 5. GitHub stores Núcleo, the system, Flame documentation, tokens, assets and a separate HTML catalogue. Keep DS internals out of the subscriber journey.
 6. A visual magazine uses imagery, crops, visual connections, media, provenance and pacing; text is one layer, not the entire composition.
 7. Every factual image/source has creator, origin, usage rights and accessible description. Conceptual AI imagery is identified as such and never presented as evidence.
-8. Interface icons support labels and interaction. They do not replace the brand, content imagery or attribution.
+8. Interface icons support labels and interaction. They do not replace content imagery or attribution. The isolated flame is a brand mark, not a generic interface icon.
 
 ## Current assets
 
 - Full signature: existing Cereja logo.png.
-- Icon: flame.svg frames the original simbolo.png inside an SVG viewBox excluding all lettering. It embeds the original raster unchanged. Replace with an approved native vector if recovered; do not treat a generative reconstruction as canonical.
+- Isolated brand mark: flame.svg frames the original simbolo.png inside an SVG viewBox excluding all lettering. It embeds the original raster unchanged. It may serve as a subtle brand identifier where the brand context is already clear, as well as for icons/favicon. Replace with an approved native vector if recovered; do not treat a generative reconstruction as canonical.
 - Editorial art: editorial-connections.png, original conceptual AI generation with the built-in OpenAI image tool, directed for Cereja and liked by Kell. No brand logo was used in the image prompt.
 - Icons: Microsoft Fluent UI System Icons, MIT, pinned to a563cf9166f4f91aa617557ed272612b7f0a2f72. License included in assets/icons/LICENSE.txt. Four regular 24px icons: Arrow Right, Book Open, Mail, Sparkle. No blanket license grant to Cereja assets.
 
@@ -42,3 +42,26 @@ GitHub repository file view displays HTML source, not a live page. To serve the 
 - On-image copy is selective and readable; caption/alt/credits travel with the exported sequence.
 - Sources and rights are verified before publication.
 - Video adds script, captions, transcript, timing and deliberate motion. No video implementation is claimed.
+
+
+## Signature hierarchy
+
+Flame uses two legitimate levels of brand identification:
+
+### Full signature
+
+Use when:
+- introducing or naming Cereja Flamejante;
+- the audience may not know which brand owns the surface;
+- legal, institutional or explicit brand identification is needed.
+
+### Isolated flame
+
+May be used when:
+- the Cereja Flamejante context is already established;
+- a subtle editorial signature is preferable to repeating the full logo;
+- closing a social/editorial composition;
+- marking an owned surface with low visual weight;
+- serving as icon, avatar or favicon.
+
+The isolated flame should **identify, not decorate**. Do not repeat it as a pattern, generic bullet, interface icon or filler. Preserve the original asset, orientation, proportions and clear space. If the isolated mark would be ambiguous outside its context, use the full signature instead.
