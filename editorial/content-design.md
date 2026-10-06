@@ -15,6 +15,7 @@ Ajudar a pessoa a encontrar, entender e usar a informação necessária, preserv
 - Usar palavras familiares ao público. Manter termos técnicos indispensáveis, nomes de obras, marcas e conceitos com explicação suficiente. Não traduzir nomes próprios ou apagar repertório só para simplificar.
 - Tratar acessibilidade desde o briefing: linguagem inclusiva, estrutura, nomes de links e ícones, alternativas para conteúdo visual e audiovisual. Conteúdo acessível não depende só da cor, da imagem ou de conhecimento prévio não explicado.
 - Preservar material autoral real: oralidade, humor, trocadilhos e conexões fornecidos por Kell. Não fabricar experiência, opinião ou erros para parecer espontâneo.
+- **Aprovação não retroage autoria:** uma formulação proposta por agente/assistente e aprovada por Kell é “aprovada por Kell”, não “escrita/dita por Kell”. Preservar a origem da formulação quando ela for relevante para voz, evidência ou aprendizado.
 - Distinguir fatos com fonte, interpretação e opinião. Citação direta exige original verificado e atribuição. Uma diretriz externa não se torna regra da Cereja sem explicitar sua adaptação.
 
 ## Aplicação e revisão

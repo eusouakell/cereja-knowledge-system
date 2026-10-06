@@ -6,6 +6,20 @@ A entrevista registra experiências, observações, dúvidas e associações da 
 Corrigir nomes provenientes de ditado sem apagar oralidade. Posse de uma obra não confirma leitura concluída. Opiniões não podem ser completadas pelo modelo.
 Tags de personalidade são auxiliares para revisão, não persona normativa nem quotas de humor.
 
+### Aprovação não equivale a autoria
+
+**“Aprovado por Kell” não significa “escrito ou dito por Kell”.**
+
+Registrar separadamente:
+- formulação originalmente escrita ou dita por Kell;
+- formulação proposta por agente/assistente e posteriormente aprovada por Kell;
+- conteúdo factual derivado de fonte;
+- adaptação editorial produzida pelo sistema.
+
+A aprovação torna uma formulação **aprovada para uso**. Ela não reescreve a proveniência histórica da frase nem permite atribuí-la retroativamente à autora.
+
+Quando a origem exata da formulação importar para voz, evidência, avaliação ou aprendizado do sistema, preservar essa distinção explicitamente.
+
 ## Seleção
 A semente trazida pela autora inicia pesquisa; a curadoria também procura descobertas fora dela. Editorias podem variar de extensão e presença.
 Conexões podem ser leves. Cada retorno acrescenta outro objeto, detalhe ou lente. Não esgotar todos os temas do briefing nem transformar a edição num argumento repetido.

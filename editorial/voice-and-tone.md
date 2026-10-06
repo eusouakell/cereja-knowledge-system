@@ -77,7 +77,8 @@ Leia em voz alta e responda:
 - Existe um objeto concreto em cada bloco: pessoa, obra, notícia, estudo ou ferramenta?
 - Cada retomada acrescenta uma descoberta, um detalhe ou uma lente?
 - A transição funciona pelo que acabamos de ler ou depende de uma explicação genérica?
-- A primeira pessoa corresponde a algo que Kell disse ou publicou?
+- A primeira pessoa corresponde a algo que Kell disse/publicou ou está claramente registrada como formulação proposta e aprovada?
+- Se a redação veio de agente/assistente, o sistema evita registrá-la retroativamente como frase originalmente escrita ou dita por Kell?
 - O comentário tem uma razão específica ou poderia acompanhar qualquer notícia?
 - A edição oferece variedade de assunto e de ritmo?
 - Há uma ideia repetida em várias editorias? Pode ser reunida num só lugar?
