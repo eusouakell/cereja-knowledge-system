@@ -53,7 +53,10 @@ Flame uses two legitimate levels of brand identification:
 Use when:
 - introducing or naming Cereja Flamejante;
 - the audience may not know which brand owns the surface;
-- legal, institutional or explicit brand identification is needed.
+- legal, institutional or explicit brand identification is needed;
+- the application is large enough for the lettering to remain comfortably legible at final viewing size.
+
+The complete signature was originally designed for larger/print-oriented use and has an **optical legibility limit at small digital sizes**. Do not shrink it merely to satisfy a logo-presence requirement. If the lettering stops reading comfortably, use the isolated flame when context already identifies the brand.
 
 ### Isolated flame
 
@@ -65,3 +68,25 @@ May be used when:
 - serving as icon, avatar or favicon.
 
 The isolated flame should **identify, not decorate**. Do not repeat it as a pattern, generic bullet, interface icon or filler. Preserve the original asset, orientation, proportions and clear space. If the isolated mark would be ambiguous outside its context, use the full signature instead.
+
+### Small digital / social applications
+
+When the Cereja Flamejante context is already established and the complete signature would become too small to read:
+
+- prefer the **official isolated flame in negative** on suitable dark/colored areas;
+- keep enough contrast and clear space for the flame shape to remain recognizable;
+- treat the mark as a quiet ownership signal, not as a decorative sticker;
+- do not substitute a regenerated or redrawn flame.
+
+For feed/social assets, final-size legibility determines whether the full signature is allowed. Brand presence never justifies unreadable lettering.
+
+### Presentations and large-format applications
+
+In talks, decks and large-format branded surfaces, the official mark may have a more spatial role:
+
+- the full signature may be used **oversized** when the lettering remains legible;
+- the official flame/signature may appear at **low opacity as a large background/watermark-like presence**, provided the original proportions/orientation are preserved and the mark does not impair reading;
+- on a deck where brand context is already established, the isolated flame may sit quietly in a corner or another low-weight position as a recurring identifier;
+- recognition of the flame shape can replace repetition of the full wordmark when context makes ownership unambiguous.
+
+Transparency changes visual weight, not geometry: never rotate, skew, mirror, redraw or distort the official asset.
