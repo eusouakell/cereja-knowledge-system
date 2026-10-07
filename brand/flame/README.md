@@ -48,7 +48,7 @@ Agent-generated UI must follow Flame. Flame does not follow whatever aesthetic a
 
 ### Brand presence can be subtle
 
-The full Cereja Flamejante signature is used when the brand name must be introduced or read. The isolated flame may act as a subtle brand signifier when context already establishes the brand, including editorial closing marks and small owned-surface signatures. It should identify the brand, not become repetitive decoration.
+The full Cereja Flamejante signature is used when the brand name must be introduced or read **and remains legible at final viewing size**. At small digital/social sizes, do not miniaturize the complete signature past its optical limit; when context already establishes the brand, prefer the official isolated flame, including negative use on suitable backgrounds. In talks and large-format surfaces, the official mark may be used oversized or at low opacity as a background/watermark-like presence, with original geometry preserved. The isolated flame may also act as a subtle owned-surface signature. It should identify the brand, not become repetitive decoration.
 
 ### Accessible is expressive
 
