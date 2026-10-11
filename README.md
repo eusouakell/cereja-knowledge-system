@@ -128,6 +128,8 @@ No measured performance advantage is claimed from architecture alone.
 
 ## Start here
 
+- [Coleta de estudos e notas de procedência](sources/README.md) — ingestão local em draft, revisão e navegação no Obsidian.
+
 - [System specification](SYSTEM-SPEC.md)
 - [Núcleo + Flame](brand/systems.md)
 - [Experience Design Principles](brand/experience-design-principles.md)
