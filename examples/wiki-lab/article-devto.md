@@ -134,6 +134,20 @@ Defina também como você vai revisar conteúdo: o que exige aprovação, quem p
 
 Passaram os quatro testes novos do helper e os dois testes existentes de ingestão. Esse é o recorte testado; não foi executada a suíte integral dos outros sistemas do repositório.
 
-A experiência fechou um ciclo mínimo de wiki LLM: receber fontes, lê-las com o agente, produzir páginas conectadas, consultar com referências e atualizar o conhecimento quando chega informação nova. O código sozinho não fez esse trabalho: a síntese e a manutenção foram realizadas pelo assistente desta conversa.
+## O que aprendemos
 
-Dois documentos fictícios não demonstram qualidade em escala, autonomia ou economia de tempo. O teste mostra um fluxo funcional e pequeno que você pode inspecionar e repetir. Para começar sua wiki, escolha uma pergunta real, reúna poucas fontes que possa conferir e percorra esse mesmo ciclo antes de aumentar a automação.
+A parte mais útil deste teste foi acompanhar o caminho de uma informação: de onde ela veio, em quais páginas apareceu e o que precisou mudar quando chegou uma atualização. A wiki ganhou valor quando conseguimos refazer a consulta e encontrar a resposta atual, sem perder a previsão anterior.
+
+Também ficou clara a diferença entre registrar um arquivo e incorporá-lo ao conhecimento da base. O comando criou a procedência; o agente precisou ler, relacionar e atualizar as páginas. E “preço não informado” foi uma resposta importante: uma lacuna precisa continuar visível até aparecer uma fonte que a resolva.
+
+Os checks ajudaram a detectar problemas de estrutura. Conferir se uma síntese representa bem o documento continua sendo outro trabalho. Com dois documentos fictícios, conseguimos observar esse ciclo pequeno, mas ainda não avaliar qualidade em escala, autonomia ou economia de tempo.
+
+## Os próximos passos na Cereja
+
+O próximo teste é usar esse fluxo numa pauta real da newsletter, com poucas fontes públicas que possamos conferir. Quero comparar as sínteses com os originais, revisar as relações propostas e observar o que acontece quando duas fontes discordam sem que uma substitua explicitamente a outra.
+
+Também precisamos registrar o esforço de revisão e as correções necessárias. Isso vai ajudar a decidir onde a automação vale a pena. Extração de PDFs, OCR e monitoramento de `raw/` entram conforme a necessidade desse uso, em vez de serem pré-requisitos para começar.
+
+## E na sua wiki?
+
+Que assunto você gostaria de organizar numa base assim? Se já usa uma wiki com LLM, conta nos comentários como faz uma informação nova chegar às páginas antigas — e o que ainda precisa conferir à mão. Quero conhecer esses caminhos e trocar aprendizados conforme os testes da Cereja avançarem.
