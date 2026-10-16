@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "per_source": 3,
+  "max_candidates": 30,
+  "max_response_bytes": 1500000,
+  "max_fulltext_bytes": 1048576,
+  "reference_only_book": "https://github.com/akitaonrails/ai-book-2026/blob/main/LICENSE.md",
+  "sources": [
+    {
+      "id": "openalex",
+      "kind": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial%20intelligence%20creativity&per_page=3",
+      "domain": "research",
+      "rights": "CC0 metadata; article rights separate"
+    },
+    {
+      "id": "crossref",
+      "kind": "crossref",
+      "url": "https://api.crossref.org/works?query=artificial%20intelligence%20creativity&rows=3",
+      "domain": "research",
+      "rights": "Bibliographic metadata; omit abstracts; article rights separate"
+    },
+    {
+      "id": "europepmc",
+      "kind": "europepmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=creativity%20AND%20OPEN_ACCESS:y&format=json&pageSize=3",
+      "domain": "science",
+      "rights": "metadata; verify individual full-text license"
+    },
+    {
+      "id": "scielo",
+      "kind": "html",
+      "url": "https://www.scielo.br/j/ep/a/C3k85XQFbwL5Yk4Knsb5H5p/abstract/?lang=pt",
+      "domain": "brasil",
+      "rights": "metadata only until article license confirmed",
+      "label": "O uso de Inteligência Artificial na produção acadêmica: o que pensam os pedagogos?"
+    },
+    {
+      "id": "nasa",
+      "kind": "rss_discover",
+      "url": "https://www.nasa.gov/rss-feeds/",
+      "domain": "science",
+      "rights": "metadata; media credits checked separately"
+    },
+    {
+      "id": "smithsonian",
+      "kind": "html",
+      "url": "https://www.si.edu/object/smith-corona-typewriter%3Anmah_1436871",
+      "domain": "culture",
+      "rights": "CC0 metadata; image restricted, do not download",
+      "label": "Smith Corona Typewriter"
+    },
+    {
+      "id": "met",
+      "kind": "met",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
+      "domain": "culture",
+      "rights": "CC0 metadata; isPublicDomain checked before media"
+    },
+    {
+      "id": "fapesp",
+      "kind": "html",
+      "url": "https://revistapesquisa.fapesp.br/keywords/ia-generativa/",
+      "domain": "brasil",
+      "rights": "metadata only; republication policy and image rights separate",
+      "label": "IA generativa — Pesquisa FAPESP"
+    },
+    {
+      "id": "github-releases",
+      "kind": "github_releases",
+      "url": "https://api.github.com/repos/akitaonrails/ai-memory/releases?per_page=3",
+      "domain": "technology",
+      "rights": "metadata; code MIT per repository LICENSE"
+    },
+    {
+      "id": "akita",
+      "kind": "github_readme",
+      "url": "https://api.github.com/repos/akitaonrails/ai-memory/readme",
+      "domain": "technology",
+      "rights": "MIT",
+      "label": "ai-memory — memória e handoff",
+      "content_url": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/README.md",
+      "license_url": "https://raw.githubusercontent.com/akitaonrails/ai-memory/main/LICENSE"
+    },
+    {
+      "id": "akita-book",
+      "kind": "reference",
+      "url": "https://ailair.akitaonrails.com/pt-br/book/",
+      "domain": "technology",
+      "rights": "All rights reserved; text/data mining expressly reserved; reference only",
+      "label": "Competente o Suficiente — referência para leitura",
+      "license_url": "https://github.com/akitaonrails/ai-book-2026/blob/main/LICENSE.md"
+    }
+  ]
+}
