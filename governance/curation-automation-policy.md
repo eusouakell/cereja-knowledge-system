@@ -34,7 +34,7 @@ Raiz: D:/cereja-knowledge-system. Dados de operação e notas de pesquisa ficam 
 Fontes manuais precisam de sidecar .source.json com classification=public, processing_allowed=true, title, url, rights e domain antes da leitura por agente.
 Metadados e referências podem ser coletados sem baixar texto integral, imagens ou vídeos.
 O coletor Python não sintetiza; o LLM lê e redige artefatos provisórios. Não há chamada paga por API neste script.
-Ingestão por verificação horária, não watcher instantâneo. Radar segunda/quarta/sexta às 09:00; manutenção domingo às 17:00, America/Sao_Paulo. Computador e aplicativo precisam estar disponíveis.
+Ingestão por verificações às 09:15, 12:15, 15:15, 18:15 e 21:15, não watcher instantâneo. Radar segunda/quarta/sexta às 09:00; manutenção domingo às 17:00, America/Sao_Paulo. Computador e aplicativo precisam estar disponíveis.
 Notificar apenas descoberta material, falha relevante ou decisão necessária; registrar resultados repetidos sem gerar ruído.
 
 ## Akita
