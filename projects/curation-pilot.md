@@ -14,3 +14,9 @@ Se um endpoint falhar, guardar falha e usar pesquisa pública por ferramentas di
 Smithsonian retornou 403 no piloto; referência pública pode permanecer no catálogo, sem alegar download automático bem-sucedido.
 Não instalar skills de terceiros. Não sincronizar Git automaticamente.
 Abrir local-curation/index.md no Obsidian. Os dados locais continuam no D:.
+
+## Tutoriais e pesquisas sob demanda
+- Livros Cereja: local-curation/tutorials/livros-cereja/README.md e modelos na pasta templates/. Proposta de capítulo piloto; não é pipeline já implementado.
+- Repositórios Akita: local-curation/research/akita/README.md. Inventário leve e triagem; não autoriza clonagem integral.
+- Procedência pública: references/akita-book-production.md.
+Preservar esses artefatos nas manutenções; a regeneração do índice de metadados não deve apagar ou substituir o tutorial.
