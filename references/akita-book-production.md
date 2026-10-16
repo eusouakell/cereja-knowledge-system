@@ -10,4 +10,3 @@ Referência pública de procedência, consultada em 16/10/2026. Autor: Fabio Aki
 O processo motivou um estudo sobre transformar acervo editorial próprio em livro. O estudo distingue documentação de produção e ferramentas de construção do manuscrito protegido. Não houve reprodução do livro, instalação das ferramentas nem validação do pipeline.
 
 Aplicação provisória: preparar um capítulo piloto da Cereja com procedência e revisão explícitas. Tutorial, modelos e seleção detalhada de projetos ficam no espaço local de pesquisa, conforme a política de referências públicas; não constituem novas regras canônicas.
-
